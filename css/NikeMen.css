@@ -9,10 +9,16 @@ body{
     font-family: "Noto Sans KR", Arial, Helvetica, sans-serif;
 }
 
+body #notice{
+    background-color: yellow;
+    padding: 5px;
+}
+
 header{
     background-color: red;
     display: flex;
     height: 100px;
+    padding: 0px 48px;
 }
 
 /* 왼쪽사이드와 본문영역을 가진 부모요소 */
@@ -26,10 +32,17 @@ header{
 aside.side{
     flex: 1;
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 0px 48px;
 }
 
-aside.side li{padding: 7px;}
+aside.side ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+aside.side li{padding: 7px 0px;}
+aside.side li a{color: black; text-decoration: none;}
+aside.side li a:hover{color: grey;}
 
 .main{
     flex: 7; /*너비 7할 : 축약형*/
