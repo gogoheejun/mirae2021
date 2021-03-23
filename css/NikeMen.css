@@ -45,9 +45,20 @@ aside.side li a{color: black; text-decoration: none;}
 aside.side li a:hover{color: grey;}
 
 .main{
-    flex: 7; /*너비 7할 : 축약형*/
+    flex: 9; /*너비 7할 : 축약형*/
     background-color: white;
     padding: 20px;
+}
+.main div.product{
+    display: inline-block;
+    margin: 24px 8px;
+}
+.main img{    
+    width: 500px;    
+}
+.main div.product p{
+    padding: 0px;
+    margin: 0px;
 }
 
 /* fake image 영역 */
