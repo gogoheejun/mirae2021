@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: orangered dotted 1px;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    border: blue dotted 1px;
+}
+
+
+.nav_menu{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav_menu a{
+    color: #111111;
+    padding: 0px 26px;
+    font-size: 25px;
+    font-family: "Noto Sans KR", sans-serif;
+    text-decoration: none;
+}
+.set{
+    display: flex;
+    max-width: 80%;
+}
+
+video{
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.show_both{
+    display: flex;
+}
+
+
+.swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media screen and (max-width: 700px){
+    .show_both{
+        flex-direction: column;
+    }
+    .
+}
