@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 1px dotted red;
+    
+}
+@font-face{
+    font-family: "p font";
+    src: url("../font_lee/paybooc\ Medium.ttf.ttf");
+}
+
+@font-face{
+    font-family: "h font";
+    src: url("../font_lee/paybooc\ Bold.ttf.ttf.ttf");
+}
+
+p{
+    font-family: 'p font', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'h font', sans-serif;
+    
+}
+h1{
+    font-weight: bold;
+}
+
+ul, li{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+ul{
+    display: inline-block;
+}
+
+header{
+    background-color:wheat;
+}
+
+#jordon_logo{
+    width: 40px;
+}
+
+#nike_logo{
+    width: 80px;
+}
+
+.icon{
+    width: 20px;
+}
+
+.main-image{
+    width: 100%;
+}
+
+.style-magazine{
+    display: inline-block;
+    width: 30%;
+}
+
+.style-magazine-image{
+    display: inline-block;
+    width: 100%;
+}
+
+.trending-now{
+    display: inline-block;
+    width: 50%-4px;
+    text-align: center;
+}
+
+.trending-now-image{
+    display: inline-block;
+    width: 80%;
+}
+
+.col-sm-6{
+    width: 22.5%;
+}
+
+article{
+    padding: 0px 50px;
+}
+
+.apparel-essentials-image{
+    width: 100%;
+}
+
+.apparel-essentials{
+    width: 30%;
+}
+
+article>div {
+    text-align: center;
+}
