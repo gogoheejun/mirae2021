@@ -1,0 +1,131 @@
+*{margin: 0; padding: 0;}
+
+ul{list-style: none;}
+
+.topMenu{
+   display: flex;
+   justify-content: flex-end; 
+}
+
+.nikeIndiBraImg{
+    width: 90%;
+}
+
+#text_nike_indi_bra{
+    display: block;
+}
+
+.nikeIndiBra{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.nikeIndiBraDetail{
+    margin-top: -10px;
+}
+
+#braDetail2{
+    margin-top: -13px;
+}
+
+#thisWeekStyling{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#main4{
+    display: inline;
+    width: 48%;
+}
+
+#main5{
+    display: inline;
+    width: 48%;
+}
+
+#springJacketStyle{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#springJacketStyleDetail{
+    margin-top: -13px;
+}
+
+#btn_more_detail{
+    margin-top: -8px;
+}
+
+#nikeAirMax{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#nikeAirMaxDetail{
+    margin-top: -13px;
+}
+
+#nikeAirMaxDetail2{
+    margin-top: -13px;
+}
+
+#AirMaxBtn{
+    margin-bottom: 80px;
+}
+
+#styleForNewStyling{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#styleForNewStylingDetail{
+    margin-top: -13px;
+}
+
+#springBtn{
+    margin-bottom: 80px;
+}
+
+#nikeTrailCollection{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#nikeTrailCollectionDetail{
+    margin-top: -13px;
+}
+
+#nikeTrailCollectionDetail2{
+    margin-top: -13px;
+}
+
+#nikeIndiBraImg{
+    width: 94%;
+}
+
+#nikeAirMaxImg{
+    width: 94%;
+}
+
+#newSpringImg{
+    width: 94%;
+}
+
+#nikeTrailCollectionImg{
+    width: 94%;
+}
+
+#NikeWomen{
+    size: 40px;
+    font-weight: bold;
+}
