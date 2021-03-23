@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Noto Sans KR";
+    src: url("../NotoSansKR-Regular.otf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: red;
+    display: flex;
+    height: 100px;
+}
+
+/* 왼쪽사이드와 본문영역을 가진 부모요소 */
+.container{
+    display: flex;
+    /* 브라우저가 작아지면 양옆으로 놓을 공간이 없을때 */
+    /* 자동으로 다음줄로 내려가도록...flex-wrap */
+    flex-wrap: wrap;
+}
+
+aside.side{
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+aside.side li{padding: 7px;}
+
+.main{
+    flex: 7; /*너비 7할 : 축약형*/
+    background-color: white;
+    padding: 20px;
+}
+
+/* fake image 영역 */
+/* 실제로는 이 영역안에 이미지요소를 배치 */
+.fakeimg{
+    background-color: #aaaaaa;
+    width: 100%;
+    padding: 20px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #dddddd;
+}
+
+/* 반응형 웹 - 미디어쿼리 문법 */
+@media screen and (max-width:700px){
+    .container, nav{
+        flex-direction: column;
+    }
+}
