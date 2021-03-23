@@ -1,0 +1,128 @@
+
+
+/* 전체 스타일 */
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+   width: 100%;
+   
+    
+}
+#wrapper{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;   
+}
+
+
+
+/* header */
+header{
+     position: relative;
+}
+#top_menubox{
+    height: 36px;
+}
+#logo_jodon{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+
+}
+#top_menu{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+/* top_menubox2 */
+
+#top_menubox2{
+    position: relative;
+    height: 60px;
+    background-color:gray;
+}
+#logo_nike{
+    width: 84px;
+    height: 60px;
+}
+nav{
+    background-color: green;
+    position: absolute;
+    
+    left:400px;
+    bottom: 15px;
+    
+    font-size: 16px;
+}
+nav li{
+    display: inline;
+    margin-left: 30px;
+}
+
+
+#text_icon_box{
+    background-color: greenyellow;
+    position: absolute;
+    right: 50px;
+    bottom: 5px;
+    
+}
+#text_icon_box input {
+    display: inline;
+    
+}
+#text_icon_box div{
+    display: inline;
+}
+
+/* aside */
+
+aside{
+    width: 15%;
+    float: left;
+    background-color: khaki;
+}
+
+
+/* section */
+section{
+    width: 85%;
+    float: right;
+    background-color: lawngreen;
+}
+article > div{
+    float: left;
+    margin-top: 30px;
+    margin-left: 72px;
+
+}
+
+
+/* footer */
+footer{
+    float: left;
+    width: 1300px;
+    background-color: lightblue;
+}
+
+#footer01{
+    height: 300px;
+}
+#footer01 ul{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
