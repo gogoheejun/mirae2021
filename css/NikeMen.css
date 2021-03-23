@@ -45,7 +45,7 @@ aside.side li a{color: black; text-decoration: none;}
 aside.side li a:hover{color: grey;}
 
 .main{
-    flex: 9; /*너비 7할 : 축약형*/
+    flex: 9; /*너비 9할 : 축약형*/
     background-color: white;
     padding: 20px;
 }
@@ -54,12 +54,22 @@ aside.side li a:hover{color: grey;}
     margin: 24px 8px;
 }
 .main img{    
-    width: 500px;    
+    width: 500px;
+    display: block;
+    margin-bottom: 12px;  
 }
 .main div.product p{
     padding: 0px;
-    margin: 0px;
+    margin: 0px;    
 }
+
+.main div.product p.productName{display: inline;}
+.main div.product p.productPrice{float: right;}
+
+
+
+
+
 
 /* fake image 영역 */
 /* 실제로는 이 영역안에 이미지요소를 배치 */
