@@ -12,14 +12,29 @@ body{
 body #notice{
     background-color: yellow;
     padding: 5px;
+    height: 80px;
+}
+
+body #notice #logo{
+    width: 50px;
+    padding: 16px 48px;    
 }
 
 header{
     background-color: red;
-    display: flex;
-    height: 100px;
+    /* display: flex; */
+    height: 60px;
     padding: 0px 48px;
 }
+
+header a{
+    color: black;
+    text-decoration: none;    
+}
+header a:hover{color: grey;}
+header h2{padding: 0px; margin: 0px;}
+
+
 
 /* 왼쪽사이드와 본문영역을 가진 부모요소 */
 .container{
@@ -31,7 +46,7 @@ header{
 
 aside.side{
     flex: 1;
-    background-color: #f1f1f1;
+    background-color: wheat;
     padding: 0px 48px;
 }
 
@@ -47,7 +62,7 @@ aside.side li a:hover{color: grey;}
 .main{
     flex: 9; /*너비 9할 : 축약형*/
     background-color: white;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 .main div.product{
     display: inline-block;
@@ -68,17 +83,6 @@ aside.side li a:hover{color: grey;}
 
 
 
-
-
-
-/* fake image 영역 */
-/* 실제로는 이 영역안에 이미지요소를 배치 */
-.fakeimg{
-    background-color: #aaaaaa;
-    width: 100%;
-    padding: 20px;
-}
-
 footer{
     padding: 20px;
     text-align: center;
@@ -86,7 +90,7 @@ footer{
 }
 
 /* 반응형 웹 - 미디어쿼리 문법 */
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
     .container, nav{
         flex-direction: column;
     }
