@@ -1,22 +1,85 @@
 
 
+
 /* 전체 스타일 */
+
+
 *{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
     list-style: none;
+    font-family:sans-serif ; 
 }
+
+
+/* 웹에서 안보여줄 스타일 */
+
+#text_icon_box_mobile{
+    display: none;
+}
+#h3_mobile{
+    display: none;
+}
+#foot_mobile{
+    display: none;
+}
+#mega_mobile{
+    display: none;
+}
+#blur{
+    display: none;
+}
+
+
+
+a:link { color: red; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+    a:hover { color: gray; text-decoration: none;}
+
+
 body{
    width: 100%;
-   
-    
+   -ms-overflow-style: none;
 }
+/* 스크롤바 없애기 */
+::-webkit-scrollbar { display: none; }
+
+
 #wrapper{
     position: relative;
-    width: 1300px;
+    width: 1850px;
     margin: 0 auto;   
 }
+
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+   .nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+   }
 
 
 
@@ -26,6 +89,7 @@ header{
 }
 #top_menubox{
     height: 36px;
+    background-color: rgb(243, 243, 243);
 }
 #logo_jodon{
     position: absolute;
@@ -38,23 +102,30 @@ header{
     top: 7px;
     right: 10px;
 }
+#top_menu a{
+    font-size: 12px;
+}
 
 /* top_menubox2 */
+
+
+
+
 
 #top_menubox2{
     position: relative;
     height: 60px;
-    background-color:gray;
+    background-color:white;
 }
 #logo_nike{
     width: 84px;
     height: 60px;
 }
 nav{
-    background-color: green;
+    
     position: absolute;
     
-    left:400px;
+    left:700px;
     bottom: 15px;
     
     font-size: 16px;
@@ -66,7 +137,7 @@ nav li{
 
 
 #text_icon_box{
-    background-color: greenyellow;
+   
     position: absolute;
     right: 50px;
     bottom: 5px;
@@ -85,15 +156,40 @@ nav li{
 aside{
     width: 15%;
     float: left;
-    background-color: khaki;
+    overflow: scroll;
+    height: 1000px;
+
+    -ms-overflow-style: none; 
+   
 }
+aside p{
+    font-weight: bold;
+}
+
+aside li{
+    font-size: 15px;
+}
+
+
+/* aside메뉴 간격 조절 */
+aside ul{
+    margin: 20px 0px;
+}
+aside hr{
+    margin-bottom: 20px;
+}
+aside li{
+    margin-bottom: 10px;
+}
+
 
 
 /* section */
 section{
+    height: 1000px;
     width: 85%;
     float: right;
-    background-color: lawngreen;
+    overflow: scroll;
 }
 article > div{
     float: left;
@@ -101,20 +197,119 @@ article > div{
     margin-left: 72px;
 
 }
+/* 아이템박스 설계 */
+.item_box{
+    padding-top: 5px;
+    height: 30px;
+}
+
+h5{
+    color: rgb(145, 145, 145);
+}
+
+.item_box h4:first-child{
+    float: left;
+}
+.item_box h4:last-child{
+    float: right;
+}
+
 
 
 /* footer */
 footer{
+    background-color: rgb(0, 0, 0);
     float: left;
-    width: 1300px;
-    background-color: lightblue;
+    width: 1850px;
+    color: white;
+    
 }
+footer a:link { color: white; text-decoration: none;}
+footer a:visited { color: white; text-decoration: none;}
+  footer a:hover { color: gray; text-decoration: none;}
 
 #footer01{
-    height: 300px;
+
+    height: 400px;
+    width: 1200px;
+   
+    margin: 0 auto;
+    padding-top: 50px;
+    
 }
 #footer01 ul{
+    margin-top: 30px;
     float: left;
+  
+    margin-left: 60px;
+    margin-right: 100px;
+    
+    
+
+   
+   
+}
+
+#footer01 ul li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}    
+
+    
+
+#footer01 a:link { color: gray; text-decoration: none;}
+#footer01 a:visited { color: gray; text-decoration: none;}
+#footer01 a:hover { color: white; text-decoration: none;}
+
+
+#footera a:link{color: white; text-decoration: none;}
+#footera a:visited { color: white; text-decoration: none;}
+
+
+
+#reserved{
+ 
+    padding: 40px 0;
+    position: relative;
+}
+#reserved p{
+    float: left;
+    margin-left: 30px;
+}
+
+#bottom02{
+    
+    float: right;
+    margin-right: 30px;
+}
+
+#bottom02 li{
+    display: inline;
+    margin-right: 20px;
+}
+
+
+#bottom04{
+    padding-top: 20px;
+    height: 150px;
+    width: 70%;
+    margin: 0 auto;
+   
+}
+
+#bottom04 p{
+    margin-left: 120px;
+}
+
+#bottom04 :first-child{
+    float: left;
+    font-size: 12px;
+    
+}
+
+#bottom04 :last-child{
+    float: left;
+    font-size: 12px;
 }
 
 
