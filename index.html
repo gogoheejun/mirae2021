@@ -11,47 +11,77 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css_lee/index.css" type="text/css">
+    <link rel="stylesheet" href="./css_lee/index.css" type="text/css" media="(min-width:940px)">
+    <link rel="stylesheet" href="./css_lee/index_tablet.css" type="text/css" media="(max-width:940px)">
     <script src="./js_lee/index.js"></script>
 </head>
 
 <body onload="loaded()">
     <div id="container">
-        <header>
-            <a href="#"><img id="jordon_logo" src="./image_lee/index_icon/index_jordon.png" alt="jordon"></a>
-            <ul>
-                <li><a href="#">고객센터</a></li>|
-                <li><a href="#">멤버 가입</aa>
-                </li>|
+        <!-- 헤더 영역 -->
+        <!-- 조던 로고 이미지와 로그인 회원가입 고객센터 앵커 -->
+        <header class="none_tablet">
+            <!-- 조던 로고 -->
+            <a href="#" class="logo_a"><img id="jordon_logo" src="./image_lee/index_icon/index_jordon.png"
+                    alt="jordon"></a>
+            <!-- 앵커 -->
+            <ul id="sub_menu">
+                <li><a href="#">고객센터</a></li> |
+                <li><a href="#">멤버 가입</a></li> |
                 <li><a href="#">로그인</a></li>
             </ul>
         </header>
-        <nav>
-            <a href="#"><img id="nike_logo" src="./image_lee/index_icon/index_nike_logo.png" alt="nike"></a>
 
-            <ul>
+        <!-- 네비게이션 영역 -->
+        <!-- 나이키 로고 이미지와 카테고리 메뉴 검색바와 장바구니버튼 -->
+        <nav>
+            <!-- 나이키 로고 -->
+            <a href="#" class="logo_a"><img id="nike_logo" src="./image_lee/index_icon/index_nike_logo.png"
+                    alt="nike"></a>
+
+            <!-- 메뉴 카테고리 -->
+            <ul id="main_category" class="none_tablet">
                 <li><a href="#">New Releases</a></li>
                 <li><a href="#">Men</a></li>
                 <li><a href="#">Women</a></li>
                 <li><a href="#">Kids</a></li>
                 <li><a href="#">Sale</a></li>
             </ul>
-            <a href="#">
-                <span style="background-color: gray; width: 100px; display: inline-block;">
-                    <img class="icon" src="./image_lee/index_icon/index_search_icon.png" alt="search">
-                </span>
-            </a>
-            <a href="#"><img src="./image_lee/index_icon/index_favorite_icon.png" alt="favorite" class="icon"></a>
-            <a href="#"><img src="./image_lee/index_icon/index_briefcase_icon.png" alt="basket" class="icon"></a>
+            <span id="option_menu_region" class="none_tablet">
+                <!-- 검색바 -->
+                <a href="#" id="search_box">
+                    <span>
+                        <img class="icon" src="./image_lee/index_icon/index_search_icon.png" alt="search">
+                        <p class="none_tablet">검색</p>
+                    </span>
+                </a>
+                <!-- favor 아이콘 -->
+                <a href="#"><img src="./image_lee/index_icon/index_favorite_icon.png" alt="favorite" class="icon"></a>
+                <!-- 장바구니 아이콘 -->
+                <a href="#"><img src="./image_lee/index_icon/index_briefcase_icon.png" alt="basket" class="icon"></a>
+            </span>
+            <span id="option_menu_region_tablet">
+                <!-- favor 아이콘 -->
+                <a href="#"><img src="./image_lee/index_icon/index_briefcase_icon.png" alt="favorite" class="icon"></a>
+                <!-- favor 아이콘 -->
+                <a href="#"><img src="./image_lee/index_icon/index_search_icon.png" alt="favorite" class="icon"></a>
+                <!-- 장바구니 아이콘 -->
+                <a href="#"><img src="./image_lee/index_icon/index_navi_icon.png" alt="basket" class="icon"></a>
+            </span>
+
         </nav>
+        <!-- 네이게이션 메가메뉴 -->
         <div id="navigationFlow">
-            
+
         </div>
+
+        <!-- 본문영역 -->
         <article>
             <div>
+                <!-- 캐러셀<opts: fade, inteval, aria-label> -->
                 <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-indicators">
+                    <div class="carousel-inner" style="position: relative;">
+                        <div class="carousel-indicators none_tablet">
                             <button type="button" data-bs-target="#carouselFade" data-bs-slide-to="0" class="active"
                                 aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselFade" data-bs-slide-to="1"
@@ -70,30 +100,59 @@
                         <div class="carousel-item active" data-bs-interval="3000">
                             <img src="./image_lee/index_image/index_nike_nss_swipper_01.jpg" class="d-block w-100"
                                 alt="...">
+                            <div class="button_in_carousel1 none_tablet">
+                                <p>NIKE X JAMES HARDEN</p>
+                                <a href="">자세히 보기</a>
+                            </div>
+
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
                             <img src="./image_lee/index_image/index_nike_nss_swipper_02.jpg" class="d-block w-100"
                                 alt="...">
+                            <div class="button_in_carousel2 none_tablet">
+                                <p>URBAN TRACKER VISTA LIGHT</p>
+                                <a href="">구매하기</a>
+                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
                             <img src="./image_lee/index_image/index_nike_nss_swipper_03.jpg" class="d-block w-100"
                                 alt="...">
+                            <div class="button_in_carousel1 none_tablet">
+                                <p>2021 S/S NEW <br> AIR MAX VIVA</p>
+                                <a href="">구매하기</a>
+                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
                             <img src="./image_lee/index_image/index_nike_nss_swipper_04.jpg" class="d-block w-100"
                                 alt="...">
+                            <div class="button_in_carousel3 none_tablet">
+                                <p>NIKE AIR VAPER MAX <br> 2021 FLINIGHT</p>
+                                <a href="">구매하기</a>
+                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
                             <img src="./image_lee/index_image/index_nike_nss_swipper_05.jpg" class="d-block w-100"
                                 alt="...">
+                            <div class="button_in_carousel3 none_tablet">
+                                <p>NEW <br> NIKE KIDS MALL</p>
+                                <a href="">자세히 보기</a>
+                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
                             <img src="./image_lee/index_image/index_nike_nss_swipper_06.jpg" class="d-block w-100"
                                 alt="...">
+                            <div class="button_in_carousel1 none_tablet">
+                                <p>NIKE 2021 PROJECT <br> URBAN TRACKING</p>
+                                <a href="">자세히 보기</a>
+                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
                             <img src="./image_lee/index_image/index_nike_nss_swipper_07.jpg" class="d-block w-100"
                                 alt="...">
+                            <div class="button_in_carousel1 none_tablet">
+                                <p>NIKE SPORTS <br> FASTER TOGETHER</p>
+                                <a href="">자세히 보기</a>
+                            </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade"
@@ -108,60 +167,105 @@
                     </button>
                 </div>
             </div>
-            <div>
-                <h2>2021 S/S Season Best</h2>
+
+            <!-- Main Theme -->
+            <!-- 나이키 에어베이퍼맥스 EVO -->
+            <div class="row">
+                <h4 id="season_best">2021 S/S Season Best</h4>
                 <div>
                     <img src="./image_lee/index_image/index_main_product02.jpg" alt="" class="main-image">
                 </div>
                 <div style="text-align: center;">
                     <h1>나이키 에어 베이퍼맥스 EVO</h1>
-                    <p>클래식한 에어맥스 시리즈를 리믹스하여<br>더욱 볼드해진 나이키 에어 베이퍼맥스 EVO를 만나보세요.</p>
+                    <p class="product_explanation">클래식한 에어맥스 시리즈를 리믹스하여<br>더욱 볼드해진 나이키 에어 베이퍼맥스 EVO를 만나보세요.</p>
+                    <a href="#" class="sale_button">구매하기</a>
                 </div>
             </div>
 
+            <!-- Main Theme -->
+            <!-- 조던 MA2 -->
             <div>
                 <div>
                     <img src="./image_lee/index_image/index_main_product03.jpg" alt="" class="main-image">
                 </div>
                 <div style="text-align: center;">
                     <h1>조던 MA2</h1>
-                    <p>최상의 편안함과 감각적인 스타일의 조던 MA2를 만나보세요.</p>
+                    <p class="product_explanation">최상의 편안함과 감각적인 스타일의 조던 MA2를 만나보세요.</p>
+                    <a href="#" class="sale_button">구매하기</a>
                 </div>
             </div>
 
+
+            <!-- Devide Theme -->
+            <!-- Style magazine JS에서 인터벌로 자동 사진 바뀜 -->
             <div>
-                <h2>Style Magazine</h2>
-                <a href="#" class="style-magazine"><img src="./image_lee/index_image/index_spring_swipper_01.jpg"
-                        alt="" class="style-magazine-image"></a>
-                <a href="#" class="style-magazine"><img src="./image_lee/index_image/index_spring_swipper_03.jpg"
-                        alt="" class="style-magazine-image"></a>
-                <a href="#" class="style-magazine"><img src="./image_lee/index_image/index_spring_swipper_07.jpg"
-                        alt="" class="style-magazine-image"></a>
+                <h4>Style Magazine</h4>
+                <div id="style-magazine">
+                    <a href="#" class="style-magazine"><img src="./image_lee/index_image/index_spring_swipper_01.jpg"
+                            alt="" class="style-magazine-image"></a>
+                    <a href="#" class="style-magazine"><img src="./image_lee/index_image/index_spring_swipper_03.jpg"
+                            alt="" class="style-magazine-image"></a>
+                    <a href="#" class="style-magazine"><img src="./image_lee/index_image/index_spring_swipper_07.jpg"
+                            alt="" class="style-magazine-image"></a>
+                </div>
+
 
                 <div style="text-align: center;">
                     <h1>스프링 재킷 스타일</h1>
-                    <p>봄을 위한 여성들의 재킷 제품들과 함께 레이어드룩을 완성해보세요.</p>
+                    <p class="product_explanation">봄을 위한 여성들의 재킷 제품들과 함께 레이어드룩을 완성해보세요.</p>
+                    <a href="#" class="sale_button">구매하기</a>
+                    <a href="#" class="sale_button">더 많은 스타일링 보기</a>
                 </div>
             </div>
+
+
+            <!-- MainTheme -->
+            <!-- 나이키 에어맥스 비바 -->
             <div>
                 <div>
                     <img src="./image_lee/index_image/index_main_product04.jpg" alt="" class="main-image">
                 </div>
                 <div style="text-align: center;">
                     <h1>나이키 에어맥스 비바</h1>
-                    <p>에어맥스 유닛과 아이코닉한 디자인의 비바와 함께<br>시선을 압도하는 세련된 스타일을 연출해보세요.</p>
+                    <p class="product_explanation">에어맥스 유닛과 아이코닉한 디자인의 비바와 함께<br>시선을 압도하는 세련된 스타일을 연출해보세요.</p>
+                    <a href="#" class="sale_button">구매하기</a>
                 </div>
             </div>
 
+
+            <!-- Devide Theme -->
+            <!-- trending now -->
             <div>
-                <h2>Trending Now</h2>
-                <a href="#" class="trending-now"><img src="./image_lee/index_image/index_product_item06.jpg" alt=""
-                        class="trending-now-image"></a>
-                <a href="#" class="trending-now"><img src="./image_lee/index_image/index_product_item07.jpg" alt=""
-                        class="trending-now-image"></a>
+                <h4>Trending Now</h4>
+                <div class="trending-now-container">
+                    <div style="position: relative;">
+                        <a href="#" class="trending-now">
+                            <img src="./image_lee/index_image/index_trending_now_03.jpg" alt=""
+                                class="trending-now-image">
+                            <div class="trending-now-comment">
+                                <p>월드투어 컬렉션</p>
+                                <a href="">구매하기</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div style="position: relative;">
+                        <a href="#" class="trending-now">
+                            <img src="./image_lee/index_image/index_trending_now_02.jpg" alt=""
+                                class="trending-now-image">
+                            <div class="trending-now-comment">
+                                <p>에어조틱 컬렉션</p>
+                                <a href="">구매하기</a>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
             </div>
+
+
             <div class="row">
-                <h2>Featured Shoes</h2>
+                <h4>Featured Shoes</h4>
                 <div class="col-sm-6">
                     <div class="card ">
                         <img src="./image_lee/index_image/index_product_item02.jpg" class="card-img-top" alt="...">
@@ -182,7 +286,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 none_tablet">
                     <div class="card">
                         <img src="./image_lee/index_image/index_product_item13.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -192,28 +296,57 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 none_tablet">
                     <div class="card">
                         <img src="./image_lee/index_image/index_product_item14.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">나이키 줌X인빈서블 런 플라이니트</h5>
+                            <h5 class="card-title">인빈서블 런 플라이니트</h5>
                             <p class="card-text">여성 신발 러닝</p>
-                            <a href="#" class="btn btn-primary">199,000원</a>
+                            <p class="card-text">199,000원</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
-                <h2>Apparel Essentials</h2>
-               <a href="#" class="apparel-essentials"><img src="./image_lee/index_image/index_product_last01.JPG" alt="" class="apparel-essentials-image"></a>
-               <a href="#" class="apparel-essentials"><img src="./image_lee/index_image/index_product_last02.JPG" alt="" class="apparel-essentials-image"></a>
-               <a href="#" class="apparel-essentials"><img src="./image_lee/index_image/index_product_last03.JPG" alt="" class="apparel-essentials-image"></a>
+            <div>
+                <h4>Apparel Essentials</h4>
+                <div id="apparel_container">
+                    <a href="#" class="apparel-essentials"><img src="./image_lee/index_image/index_product_last01.JPG"
+                            alt="" class="apparel-essentials-image"></a>
+                    <a href="#" class="apparel-essentials"><img src="./image_lee/index_image/index_product_last02.JPG"
+                            alt="" class="apparel-essentials-image"></a>
+                    <a href="#" class="apparel-essentials"><img src="./image_lee/index_image/index_product_last03.JPG"
+                            alt="" class="apparel-essentials-image"></a>
+                </div>
+
             </div>
 
         </article>
-        <footer style="height: 150px; background-color: grey;">
+        <footer>
+            <ul>
+                <li>매장안내</li>
+                <li>나이키 트레이팅 가이드</li>
+                <li>로그인</li>
+                <li>멤버 가입</li>
+            </ul>
+            <ul>
+                <li>고객센터</li>
+                <li>080-022-0182</li>
+                <li>주문/결제</li>
+                <li>배송</li>
+                <li>주문배송조회</li>
+                <li>멤버쉽 혜택/서비스</li>
+                <li>공지사항</li>
+                <li>1:1 채팅 문의</li>
+                <li>1:1 이메일문의</li>
+                <li>이용약관</li>
+                <li>개인정보처리방침</li>
+            </ul>
 
+            <ul>
+                <li>ABOUT NIKE</li>
+                <li>나이키에 대하여</li>
+            </ul>
         </footer>
     </div>
 </body>

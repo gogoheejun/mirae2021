@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     
 }
 @font-face{
@@ -14,86 +14,350 @@
     src: url("../font_lee/paybooc\ Bold.ttf.ttf.ttf");
 }
 
+a{
+    text-decoration-line: none;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+article>*{
+    margin-bottom: 100px;
+}
+
 p{
     font-family: 'p font', sans-serif;
 }
 
 h1, h2, h3, h4, h5{
     font-family: 'h font', sans-serif;
+    margin: 80px 0px 30px 0px;
     
 }
 h1{
     font-weight: bold;
 }
 
-ul, li{
-    list-style: none;
-}
-
 li{
-    display: inline-block;
+    list-style: none;
+    color: black;
 }
-ul{
-    display: inline-block;
+header li{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
+nav li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 header{
-    background-color:wheat;
+    background-color:#eeeeee;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 #jordon_logo{
-    width: 40px;
+    padding: 7px;
+    height: 100%;
 }
 
 #nike_logo{
-    width: 80px;
+    width: 70px;
+    align-self: center;
+    flex: 1;
 }
 
 .icon{
-    width: 20px;
+    width: 25px;
 }
 
 .main-image{
     width: 100%;
 }
 
-.style-magazine{
-    display: inline-block;
-    width: 30%;
+/* .style-magazine{
+    display: flex;
+    justify-content: space-between;
+} */
+
+#style-magazine{
+    display: flex;
+    justify-content: space-around;
 }
 
 .style-magazine-image{
-    display: inline-block;
     width: 100%;
 }
 
-.trending-now{
-    display: inline-block;
-    width: 50%-4px;
-    text-align: center;
+#option_menu_region_tablet{
+    display: none;
 }
 
 .trending-now-image{
     display: inline-block;
-    width: 80%;
-}
-
-.col-sm-6{
-    width: 22.5%;
+    width: 100%;
+    position: relative;
 }
 
 article{
     padding: 0px 50px;
 }
 
-.apparel-essentials-image{
+.trending-now-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#apparel_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+#apparel_container img{
     width: 100%;
 }
 
-.apparel-essentials{
-    width: 30%;
+#sub_menu{
+    font-size: small;
+    display: flex;
+    margin-right: 40px;
+    margin-top: 5px;
+    align-self: flex-start;
 }
 
-article>div {
-    text-align: center;
+
+.logo_a{
+    margin-left: 40px;
+}
+
+li a{
+    text-decoration-line: none;
+    color: black;
+}
+
+li a:hover{
+    color: #666666;
+}
+
+#search_box{
+    width: 180px;
+    background-color: #eeeeee;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-decoration-line: none;
+    color: #888888;
+}
+
+#search_box:hover{
+    background-color: #dddddd;
+}
+
+#search_box span{
+    display: flex;
+    align-items: center;
+}
+
+#search_box img{
+    margin-left: 10px;
+}
+
+#search_box p{
+    font-size: medium;
+    align-self: initial;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#option_menu_region{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav{
+    /* position: relative; */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+nav ul{
+    align-items: center;
+    height: 100%;
+}
+
+#option_menu_region>*{
+    margin:0px 10px;
+}
+
+nav *{
+    display: flex;
+}
+
+.sale_button{
+    border: 1px dotted blue;
+    padding: 7px 20px;
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+    border-bottom-left-radius: 52px;
+    border-bottom-right-radius: 52px;
+    color: white;
+    background-color: black;
+    text-decoration-line: none;
+    font-family: 'p font', sans-serif;
+}
+
+.sale_button:hover{
+    color: white;
+    background-color: #444444;
+}
+
+.sale_button_in_image{
+    position: absolute;
+    bottom: 50px;
+    background-color: white;
+    color: black;
+    padding:10px 20px;
+    border-radius: 25px;
+    text-decoration-line: none;
+    font-family: 'h font', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sale_button_in_image:hover{
+    color: black;
+    background-color: #eeeeee;
+}
+
+#sale_button_in_trending1{
+    left: 50px;
+}
+#sale_button_in_trending2{
+    right: 100px;
+}
+
+.card-title{
+    margin-top: 8px;
+    font-family: 'p font', sans-serif;
+    font-weight: bold;
+}
+.card-text{
+    color: #333333;
+    font-family: 'p font', sans-serif;
+    margin-bottom: 0px;
+}
+
+.col-sm-6{
+    width: 24.95%;
+}
+
+#season_best{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 100px;
+}
+
+.button_in_carousel1{
+    position: absolute;
+    right: 17%;
+    bottom: 15%;
+    color: white;
+    text-decoration-line: none;
+    font-size: 25px;
+    text-align: end;
+}
+
+.button_in_carousel1 a{
+    color: white;
+    border: 1px solid white;
+    padding: 7px 14px;
+    font-size: 14px;
+    text-decoration-line: none;
+    margin-top: 0px;
+}
+
+.button_in_carousel2{
+    position: absolute;
+    left: 17%;
+    top: 40%;
+    color: white;
+    text-decoration-line: none;
+    font-size: 25px;
+}
+
+.button_in_carousel2 a{
+    color: white;
+    border: 1px solid white;
+    padding: 7px 14px;
+    font-size: 14px;
+    text-decoration-line: none;
+    margin-top: 0px;
+}
+
+.button_in_carousel3{
+    position: absolute;
+    left: 17%;
+    bottom: 20%;
+    color: white;
+    text-decoration-line: none;
+    font-size: 25px;
+}
+
+.button_in_carousel3 a{
+    color: white;
+    border: 1px solid white;
+    padding: 7px 14px;
+    font-size: 14px;
+    text-decoration-line: none;
+    margin-top: 0px;
+}
+
+.product_explanation{
+    margin-bottom: 30px;
+}
+
+
+.trending-now-comment{
+    
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    text-align: end;
+}
+
+.trending-now-comment p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.trending-now-comment a:last-child{
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+
+.trending-now-comment a:last-child:hover{
+    color: #eeeeee;
+    padding: 5px 10px;
+    border: 1px solid white;
 }

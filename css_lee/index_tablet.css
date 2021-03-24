@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px dotted red; */
+}
+
+@font-face{
+    font-family: "p font";
+    src: url("../font_lee/paybooc\ Medium.ttf.ttf");
+}
+
+@font-face{
+    font-family: "h font";
+    src: url("../font_lee/paybooc\ Bold.ttf.ttf.ttf");
+}
+
+a{
+    text-decoration-line: none;
+}
+
+article>*{
+    padding-bottom: 50px;
+}
+
+p{
+    font-family: 'p font', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'h font', sans-serif;
+    padding: 30px 0px 30px 0px;
+    
+}
+h1{
+    font-weight: bold;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    background-color: #3f3f3f
+}
+
+header{
+    display: none;
+}
+
+.none_tablet{
+    display: none;
+}
+
+#nike_logo{
+    width: 70px;
+    align-self: center;
+    flex: 1;
+}
+
+.icon{
+    width: 25px;
+    margin: 5px;
+    padding: 1px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    
+}
+
+.icon:hover{
+    background-color: #dddddd;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+article img{
+    width: 100%;
+}
+
+#style-magazine{
+    display: flex;
+    justify-content: space-between;
+}
+
+.style-magazine-image{
+    width: 100%;
+}
+
+.sale_button{
+    border: 1px dotted blue;
+    padding: 7px 20px;
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+    border-bottom-left-radius: 52px;
+    border-bottom-right-radius: 52px;
+    color: white;
+    background-color: black;
+    text-decoration-line: none;
+    font-family: 'p font', sans-serif;
+}
+
+.sale_button:hover{
+    color: white;
+    background-color: #444444;
+}
+.sale_button_in_image{
+    position: absolute;
+    bottom: 50px;
+    background-color: white;
+    color: black;
+    padding:10px 20px;
+    border-radius: 25px;
+    text-decoration-line: none;
+    font-family: 'h font', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sale_button_in_image:hover{
+    color: black;
+    background-color: #eeeeee;
+}
+
+#sale_button_in_trending1{
+    left: 50px;
+}
+#sale_button_in_trending2{
+    right: 100px;
+}
+
+#apparel_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.apparel-essentials:last-child{
+    display: none;
+}
+
+.card-title{
+    margin-top: 8px;
+    font-family: 'p font', sans-serif;
+    font-weight: bold;
+}
+.card-text{
+    color: #333333;
+    font-family: 'p font', sans-serif;
+    margin-bottom: 0px;
+}
+
+.trending-now-image{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+.trending-now-comment{
+    
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    text-align: end;
+}
+
+.trending-now-comment p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.trending-now-comment a:last-child{
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+
+.trending-now-comment a:last-child:hover{
+    color: #eeeeee;
+    padding: 5px 10px;
+    border: 1px solid white;
+}
