@@ -84,14 +84,64 @@ aside.side li a:hover{color: grey;}
 .main div.product p.productPrice{float: right;}
 
 
+/* footer */
 footer{
     padding: 20px;    
     background-color: black;
     color: white;
+    width: 97.9%;
+    font-size: 13px; 
 }
-footer div.footer_div1{
-    font-size: 13px;    
+
+footer a{
+    text-decoration: none;
 }
+
+footer ul{
+    list-style: none;
+}
+
+#footer01, #footer03{    
+    display: flex;
+    justify-content: center;
+}
+
+#footer01 ul{
+    margin: 20px 60px;
+}
+
+#footer01 .footer01_ul01 a{
+    color: white;
+}
+
+#footer01 .footer01_ul a, #footer02 a{
+    color: grey;
+}
+#footer01 .footer01_ul a:hover{
+    color: white;
+}
+
+#footer02{
+    display: flex;
+}
+
+#footer02 p{
+    display: flex;    
+}
+
+#footer02 div{    
+    margin: 0 0 0 auto;
+    display: flex;
+}
+
+#footer02 #p2>a, #p3>a{
+    margin: 0 10px;
+}
+
+#footer03 p{
+    margin: 0px 20px;
+}
+
 
 /* 반응형 웹 - 미디어쿼리 문법 */
 @media screen and (max-width:800px){
