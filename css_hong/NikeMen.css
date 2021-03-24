@@ -3,6 +3,10 @@
     src: url("../NotoSansKR-Regular.otf");
 }
 
+ul, ol{
+    list-style: none;
+}
+
 body{
     margin: 0;
     padding: 0;
