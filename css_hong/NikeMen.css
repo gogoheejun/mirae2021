@@ -25,11 +25,10 @@ body #notice #logo{
 }
 
 
-header{
-    background-color: red;
+header{    
     /* display: flex; */
-    height: 60px;
-    padding: 0px 48px;
+    height: 100px;
+    padding: 0px 48px; 
 }
 
 header a{
@@ -38,6 +37,66 @@ header a{
 }
 header a:hover{color: grey;}
 header h2{padding: 0px; margin: 0px;}
+
+/* bnv 구현 */
+header .header-bottom-nav{
+    width:100%; height:20px;
+	display:flex;	
+	justify-content: center;
+	-ms-flex-pack: end;
+	position:relative;
+    font-size: 20px;
+}
+
+.header-bottom-nav li a:hover {
+    text-decoration: underline;
+}
+.header-bottom-nav-sub-menu-container {
+	position:absolute;
+	z-index:3;
+	width:1800px; height:0px;/*기본값 170px;*/
+	overflow:hidden;
+	transition:all 0.5s;
+	background:white;
+}
+.header-bottom-nav-sub-menu-bg {
+	margin:0 auto;	
+    width:700px; height:195px;
+	position:relative;	
+	font-size:15px;
+}
+/*각 서브메뉴 정렬*/
+#header-bottom-nav-sub-menu {
+    display:inline-block;
+	position:absolute;
+	line-height:30px;
+}
+#header-bottom-nav-sub-menu a {
+    color:black;	
+}
+#header-bottom-nav-sub-menu a:hover {
+    color: black;
+    text-decoration:underline;   
+}
+.header-bottom-nav-sub-menu1 {
+    left:130px;
+}
+.header-bottom-nav-sub-menu2 {
+    left:230px;
+}
+.header-bottom-nav-sub-menu3 {
+    left:370px;
+}
+.header-bottom-nav-sub-menu4 {
+    left:480px;
+}
+.header-bottom-nav li {	
+	width:124px;
+	position:relative; 	
+}
+.header-bottom-nav li:nth-child(5){
+	width:96px;
+}
 
 
 
