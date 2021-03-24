@@ -1,20 +1,229 @@
+
 *{
     margin: 0px;
     padding: 0px;
     border: orangered dotted 1px;
-    
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
 }
 
+
+
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+header img{
+    width: 100px;
+}
+
+header .header_list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+header .header_list li{
+    padding: 8px 12px;
+}
+
+
+header .header_icon{
+    list-style: none;
+    display: flex;
+}
+header .header_icon li{
+    padding: 8px;
+}
+/* header .header_icon li i{
+    padding: 8px;
+} */
+
+#burger{
+    display: none;
+}
+/* /////nav///////////////// */
+section{
+    /* padding-top:75px */
+}
+nav{
+    border: blue dotted 1px;
+    display: flex;
+
+    /* justify-content: space-between; */
+    align-items: center;
+    /* position: fixed; */
+}
+
+nav .title{
+    /* width: 10%; */
+    font-size: 26px;
+    position: absolute;
+    left: 20px;
+}
+nav .nav_menu{
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+nav .nav_menu a{
+    padding: 0px 26px
+}
+a:link{ color:black}
+a:visited{color: black}
+
+nav .nav_menu #nav_menu_1st{
+    padding-left: 0px;
+}
+/* ///////section video//////////// */
 section{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-nav{
-    border: blue dotted 1px;
+section .set{
+    width: 100%;
 }
 
+section .set video{
+    width: 100%;
+}
+section figcaption{
+    text-align: center;
 
+}
+figcaption h1, figcaption p{
+    
+}
+figcaption .buy{
+    background-color: black;
+    border-radius: 32px;
+    padding: 8px 16px;
+    color: whitesmoke;
+    margin: 30px;
+}
+figcaption .buy:hover{
+    background-color: rgb(90, 90, 90);
+}
+
+/* ////section 에어맥스,브라///*/
+section img{
+    width: 100%;
+}
+section img:hover{
+    opacity: 0.5;
+}
+/* ///section 신발두개 */
+section .shoe_both{
+    display: flex;
+    flex-direction: row;
+}
+
+section .shoe_both .shoe_left{
+    position: relative;
+}
+section .shoe_both .shoe_left .caption_left{
+    position:absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.caption_left h4{
+    color: whitesmoke;
+}
+
+section .shoe_both .shoe_right{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+picture source{
+    flex-grow: 1;
+    width: 100%;
+}
+section .shoe_both .shoe_right .caption_right{
+    position:absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.caption_right h4{
+    color: whitesmoke;
+}
+
+/* ////이번주 패밀리 룩 */
+section .swiper-wrapper{
+    display: flex;
+}
+section .swiper-wrapper div{
+    position: relative;
+}
+section .swiper-wrapper figcaption{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+/* ////////////////////////////////////////////////////////// */
+@media screen and (max-width: 960px){
+
+    .set video{
+        src: "https://nikevideo.nike.com/72451143001/202103/2596/72451143001_6241867310001_6241866134001.mp4";
+    }
+
+    header .header_list{
+        display: none;
+    }
+    .header{
+        padding-right: 0px;
+    }
+    #burger{
+        display: inline;
+    }
+    header .header_list.active{
+        display: flex;
+    }
+    /* /////////// */
+    nav{
+        margin-top: -3px;
+        flex-direction: column;
+        /* position: fixed; */
+        width: 100%;
+        background-color: white;
+        z-index: 999;
+    }
+    
+    nav .title{
+        width: 100%;
+        text-align: start;
+        position: static;
+    }
+    nav .nav_menu{
+        width: 100%;
+        text-align: start;
+    }
+    nav .nav_menu a{
+        padding: 0px 14px
+    }
+
+    /* //////// */
+    section .shoe_both{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .shoe_right img{
+        background-image : url("./image_yang/m210310_kids_p3_bg2.jpg");
+    }
+}
+/* 
 .nav_menu{
     height: 50px;
     display: flex;
@@ -25,7 +234,6 @@ nav{
     color: #111111;
     padding: 0px 26px;
     font-size: 25px;
-    font-family: "Noto Sans KR", sans-serif;
     text-decoration: none;
 }
 .set{
@@ -55,4 +263,4 @@ img{
         flex-direction: column;
     }
     .
-}
+} */
