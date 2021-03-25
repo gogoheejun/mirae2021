@@ -29,6 +29,13 @@ body #notice #logo{
    justify-content: flex-end;
 }
 
+.heartBag{
+    display: inline-flexbox;
+    float: right;
+    width: 100px;
+    margin-top: 20px;
+}
+
 
 header{    
     /* display: flex; */
