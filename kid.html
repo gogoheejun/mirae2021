@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="./css_yang/kid.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-
-    <script src="https://kit.fontawesome.com/752f2f502b.js" crossorigin="anonymous">
-    </script>
+    <script src="https://kit.fontawesome.com/752f2f502b.js" crossorigin="anonymous"></script>
+    <!-- swiper api -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 
     <script src="./js_yang/kid.js" defer></script>
 </head>
@@ -92,9 +93,9 @@
                 
                     <a href="">
                         <video id="desk_shoe" src="https://nikevideo.nike.com/72451143001/202103/3668/72451143001_6241870162001_6241877468001.mp4"
-                        muted="muted" loop="loop"></video>
+                        muted="muted" loop="loop" autoplay="autoplay"></video>
                         <video id="mobile_shoe" src="https://nikevideo.nike.com/72451143001/202103/2596/72451143001_6241867310001_6241866134001.mp4"
-                        muted="muted" loop="loop"></video>
+                        muted="muted" loop="loop" autoplay="autoplay"></video>
                         <!-- autoplay="autoplay" -->
                     </a>
             
@@ -166,11 +167,12 @@
             
     
             </div>
-            <div class="set">
-                <h3>이번 주 패밀리 룩</h3>
+            <h3>이번 주 패밀리 룩</h3>
+            <div class="set swiper-container">
+                
         
                 <div class="swiper-wrapper">
-                    <div class="slide_item1">
+                    <div class="swiper-slide">
                         <a href="">
                             <img src="./image_yang/210219_kids_p5_bg1.jpg" alt="베이비">
                         </a>
@@ -179,7 +181,7 @@
                             <p>80mm-160mm</p>
                         </figcaption>
                     </div>
-                    <div class="slide_item2">
+                    <div class="swiper-slide">
                         <a href="">
                             <img src="./image_yang/210219_kids_p5_bg2.jpg" alt="베이비">
                         </a>
@@ -188,7 +190,7 @@
                             <p>160mm-220mm</p>
                         </figcaption>
                     </div>
-                    <div class="slide_item3">
+                    <div class="swiper-slide">
                         <a href="">
                             <img src="./image_yang/210219_kids_p5_bg3.jpg" alt="베이비">
                         </a>
@@ -197,7 +199,7 @@
                             <p>225mm-250mm</p>
                         </figcaption>
                     </div>
-                    <div class="slide_item4">
+                    <div class="swiper-slide">
                         <a href="">
                             <img src="./image_yang/210219_kids_p5_bg4.jpg" alt="베이비">
                         </a>
@@ -206,10 +208,17 @@
                             <p>230mm-260mm</p>
                         </figcaption>
                     </div>
-    
                 </div>
-    
-            
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
             </div>
     
     

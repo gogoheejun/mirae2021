@@ -2,7 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    border: orangered dotted 1px;
+    border: orangered dotted 0spx;
     font-family: 'Noto Sans KR', sans-serif;
     text-decoration: none;
 }
@@ -65,7 +65,7 @@ header .header_icon li{
 
 
 nav{
-    border: blue dotted 1px;
+    border: blue dotted 0px;
     display: flex;
     align-items: center;
 }
@@ -190,8 +190,37 @@ section .swiper-wrapper div{
 section .swiper-wrapper figcaption{
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 100px;
 }
+
+/* swiper */
+h3{
+    margin: 30px;
+}
+.swiper-container{
+    height: 400px;
+    
+}
+.swiper-slide{
+    background-color:white;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+
+    display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+}
+
 /* css */
 footer{
     background-color: #000000;
@@ -334,7 +363,7 @@ footer #online{
     nav{
         position: sticky;
         top:-10px;
-        z-index: 1;
+        z-index: 999;
     }
     .header_icon li{
         margin-right: 20px;
@@ -363,7 +392,7 @@ footer #online{
         left: 100%;
         text-align: center;
         transition: all .3s;
-        z-index: 9;
+        z-index: 9999;
         flex-direction: column;
         
     }
@@ -381,9 +410,9 @@ footer #online{
     }
     #check:checked ~ div header .header_list
     {
-        left: 70%;
+        left: 60%;
         text-align: left;
-        padding-left: 30px;
+        padding-left: 20px;
         display: inline-flex;
         justify-content: space-around;
         flex-direction: column;
