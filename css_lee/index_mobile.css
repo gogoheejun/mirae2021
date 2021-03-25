@@ -4,6 +4,7 @@
     /* border: 1px dotted red; */
 }
 
+
 @font-face{
     font-family: "p font";
     src: url("../font_lee/paybooc\ Medium.ttf.ttf");
@@ -14,10 +15,6 @@
     src: url("../font_lee/paybooc\ Bold.ttf.ttf.ttf");
 }
 
-.only_mobile{
-    display: none;
-}
-
 li{
     list-style: none;
 }
@@ -25,10 +22,13 @@ li{
 a{
     text-decoration-line: none;
 }
+article{
+    padding: 0px 10px;
+}
 
 article>*{
     padding-bottom: 50px;
-    text-align: center;
+    text-align: start;
 }
 
 p{
@@ -42,12 +42,16 @@ h1, h2, h3, h4, h5{
 }
 h1{
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 h4{
-    color: white;
-    text-align: center;
-    background-color: #3f3f3f
+    color: black;
+    text-align: start;
+    background-color: white;
+    margin-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
 
 header{
@@ -56,6 +60,14 @@ header{
 
 .none_tablet{
     display: none;
+}
+
+.none_mobile{
+    display: none;
+}
+
+.only_mobile{
+    display: block;
 }
 
 #nike_logo{
@@ -201,7 +213,7 @@ article img{
     scroll-snap-type: x mandatory;
 }
 .feature_shoes_container img{
-    width: 300px;
+    width: 250px;
 }
 
 .feature_shoes_container a{
@@ -235,8 +247,8 @@ article img{
     background-color: #f4f4f4;
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px white;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 footer{
@@ -342,4 +354,41 @@ footer>div:last-child>div:first-child p{
 footer>div:last-child>div:last-child p{
     margin-bottom: 0px;
     display: block;
+}
+
+#information_region>div:first-child{
+    display: none;
+    background-color: brown;
+}
+
+#information_region_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#information_region_mobile ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 13px;
+}
+
+footer ul:last-child li{
+    display: block;
+}
+
+#information_region{
+    padding-top: 10px;
+}
+
+.product_explanation{
+    margin-bottom: 30px;
+}
+
+.explanation_container{
+    margin-left: 20px;
 }
