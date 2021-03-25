@@ -39,17 +39,24 @@
             </div>
             
             <div id="icon_set">
-                <img class="icon" id="icon_search" src="./image_hong/icon_search.png" alt="">
-                <input type="text" placeholder="검색">
+                <div id="search_bar">
+                    <img class="icon" id="icon_search" src="./image_hong/icon_search.png" alt="">
+                    <input type="text" placeholder="검색">
+                </div>                
                 <img class="icon" id="icon_favor" src="./image_hong/icon_favor.png" alt="">
+                <img class="icon" id="icon_bag" src="./image_hong/icon_bag.png" alt="">                
+            </div>
+
+            <div id="icon_set_mobile">                
                 <img class="icon" id="icon_bag" src="./image_hong/icon_bag.png" alt="">
+                <img class="icon" id="icon_search" src="./image_hong/icon_search.png" alt="">
                 <img class="icon" id="icon_hamburger" src="./image_hong/icon_hamburger.png" alt="">
             </div>
         </div>
 
         <div id="header03">
             <ul>
-                <li>Men</li>
+                <li id="header03_title_small"><a href="#">Men</a></li>
                 <li id="header03_title">Men's 의류</li>
             </ul>
 
@@ -86,8 +93,11 @@
                 </div>		
             </section>   
             
-            <div id="header03_menu">
-                <a href="#">FILTER</a>
+            <div id="header03_menu" style="display: flex;">
+                <div>
+                    <a href="#">FILTER <img src="./image_hong/icon_filter.png" alt=""></a>
+                </div>
+                
                 <a href="#">신상품순</a>
             </div>            
 

@@ -3,4 +3,26 @@
     .container{
         flex-direction: column;
     }
+
+    #header01{
+        display: none;
+    }
+
+    #icon_set{
+        display: none;
+    }
+
+    #icon_set_mobile{
+        display: flex;
+        margin: 0 10px;
+    }
+
+    header .header-bottom-nav{
+        display: none;
+    }
+
+    footer{
+        min-width: 1200px;
+    }
+
 }

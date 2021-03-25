@@ -19,6 +19,7 @@ body{
     justify-content: space-between;
     padding: 10px 40px 10px 40px;
     background-color: #F5F5F5;
+    align-items: center;
 }
 
 #icon_jordan{
@@ -36,7 +37,8 @@ body{
 #header02{
     display: flex;
     background-color: yellow;
-    justify-content: space-between;    
+    justify-content: space-between;
+    align-items: center;  
 }
 #header02 #Nike_logo, #icon_set{
     padding: 10px 40px 10px 40px;
@@ -57,19 +59,44 @@ body{
     display: flex;
 }
 #icon_set input{
-    width: 140px;
+    width: 120px;
     height: 20px;
+    border: none;
+    background-color: #F5F5F5;
+    margin-right: 20px;    
 }
 .icon{
     width: 30px;
-    height: 30px;    
+    height: 30px;
+    margin: 0 0 0 10px;    
 }
+
+#search_bar{
+    display: flex;
+    background-color: #F5F5F5;
+    border-radius: 30px;
+    align-items: center;
+}
+
+#icon_set_mobile{
+    display: none;
+}
+
+
 
 /* ---------------------header03------------------------ */
 #header03{
     display: flex;
     background-color: cornflowerblue;
     justify-content: space-between;
+}
+
+#header03_title_small>a{
+    color: black;
+    text-decoration: none;
+}
+#header03_title_small>a:hover{
+    color: grey;
 }
 
 #header03_title{
@@ -79,15 +106,22 @@ body{
 #header03_menu{
     padding: 30px 40px 10px 40px;
 }
+#header03_menu>div:hover{
+    opacity: .5;
+}
+#header03_menu>div img{
+    width: 20px;
+}
 
 #header03_menu a{
     color: black;
     text-decoration: none;
     margin: 0 10px;
 }
-#header03_menu a:hover{
-    color: grey;
+#header03_menu>a:hover{
+    opacity: .5;
 }
+
 
 
 
@@ -132,16 +166,16 @@ header .header-bottom-nav{
     text-decoration:underline;   
 }
 .header-bottom-nav-sub-menu1 {
-    left:3%;
+    left:2%;
 }
 .header-bottom-nav-sub-menu2 {
-    left:17%;
+    left:16%;
 }
 .header-bottom-nav-sub-menu3 {
-    left:38%;
+    left:36%;
 }
 .header-bottom-nav-sub-menu4 {
-    left:52%;
+    left:51%;
 }
 .header-bottom-nav li {	
 	width:124px;
@@ -210,7 +244,7 @@ footer{
     background-color: black;
     color: white;
     width: 97.9%;
-    font-size: 13px; 
+    font-size: 13px;
 }
 
 footer a{
