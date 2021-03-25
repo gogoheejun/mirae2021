@@ -112,6 +112,7 @@ header{
 
 
 
+
 #top_menubox2{
     position: relative;
     height: 60px;
@@ -136,20 +137,55 @@ nav li{
 }
 
 
+
+/* 아이콘 박스 */
 #text_icon_box{
    
+   width: 300px;
     position: absolute;
     right: 50px;
     bottom: 5px;
     
 }
-#text_icon_box input {
-    display: inline;
+
+
+#text_icon_box div{
+    float: left;
+}
+#search_box{
+    
+    background-color: rgb(204, 204, 204);
+    width: 150px;
+    height: 30px;
+    margin-right: 30px;
+    margin-top: 3px;
+    border-radius:1em;
+}
+#search_box:hover{
+    background-color: rgb(177, 177, 177);
+}
+#search_box img{
+    width: 28px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.iconicon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.iconicon:hover{
+    
+    border-radius: 1em;
+    background-color: rgb(177, 177, 177);
     
 }
-#text_icon_box div{
-    display: inline;
-}
+
+
+
+
+
 
 /* aside */
 
