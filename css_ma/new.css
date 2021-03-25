@@ -139,6 +139,7 @@ nav{
     
     position: absolute;
     
+    
     left:700px;
     bottom: 15px;
     
@@ -155,6 +156,37 @@ nav li{
 nav li:hover{
     border-bottom: 2px solid black;
 }
+
+
+
+
+
+/* ---------------------메가메뉴 구현------------------------------ */
+
+.header-bottom-nav-sub-menu-container {
+	position: absolute;
+    left: -800px;
+	z-index:3;
+	width:2000px; height:0px;/*기본값 170px;*/
+	overflow:hidden;
+	transition:all 0.5s;
+	background:white;
+}
+.mega_ul{
+	margin:0 auto;	
+    width:700px; height:500px;
+	position:relative;	
+	font-size:15px;
+    background-color: tomato;
+}
+
+.mega{
+  
+}
+
+
+
+
 
 
 
