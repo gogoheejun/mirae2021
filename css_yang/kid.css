@@ -98,13 +98,17 @@ section{
 }
 section .set{
     width: 100%;
+    margin-bottom: 20px;
 }
 
 section .set video{
     width: 100%;
 }
+
 section figcaption{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -112,14 +116,17 @@ section figcaption{
     display: none;
 }
 .buy{
-    background-color: wheat;
+    background-color: peachpuff;
     border-radius: 32px;
     padding: 8px 16px;
-    color: fuchsia;
-    margin: 30px;
+    color: whitesmoke;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
 }
 .buy:hover{
     background-color: rgb(90, 90, 90);
+    color:whitesmoke;
 }
 
 /* section 에어맥스,브라///*/
@@ -143,6 +150,14 @@ section .shoe_both .shoe_left .caption_left{
     bottom: 50px;
     left: 50px;
 }
+
+ #mobile_shoe{
+    display: none;
+}
+ #desk_shoe{
+    display: inline;
+}
+
 .caption_left h4{
     color: whitesmoke;
 }
@@ -220,8 +235,11 @@ section .swiper-wrapper figcaption{
         flex-direction: column;
         
     }
-    .shoe_right img{
-        background-image : url("./image_yang/m210310_kids_p3_bg2.jpg");
+     #mobile_shoe{
+        display: inline;
+    }
+     #desk_shoe{
+        display: none;
     }
 
     
@@ -310,5 +328,4 @@ section .swiper-wrapper figcaption{
         display: inline;
         margin: 0px;
     }
-    
     
