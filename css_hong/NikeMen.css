@@ -17,6 +17,7 @@ body #notice{
     background-color: yellow;
     padding: 5px;
     height: 80px;
+    margin-right: 50px;
 }
 
 body #notice #logo{
@@ -29,11 +30,23 @@ body #notice #logo{
    justify-content: flex-end;
 }
 
-.heartBag{
-    display: inline-flexbox;
-    float: right;
-    width: 100px;
-    margin-top: 20px;
+#icon_set{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+#icon_set input{
+    width: 140px;
+    height: 20px;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
 }
 
 
