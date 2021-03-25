@@ -192,6 +192,93 @@ section .swiper-wrapper figcaption{
     bottom: 20px;
     left: 20px;
 }
+/* css */
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+footer .oneDescription{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items:flex-start;
+    margin: 50px;
+}
+footer .footer1line{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+footer .footer2line{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+footer .footer2line li{
+    size: 8px;
+    color: #555555;
+}
+#customerCenter{
+    color: #FFFFFF;
+}
+footer .footer3line{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+footer .footer4line{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#regardingNike{
+    size: 8px;
+    color: #555555;
+}
+footer .secondDescription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.secondDescriptionUl{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 8px 12px;
+    size: 8px;
+    margin-left: 10px;
+}
+#nikeCopyRight{
+    margin-left: 10px;
+    color: #555555;
+    size: 8px;
+}
+.secondDescriptionUl2{
+    display: inline-flex;
+    flex-direction:row;
+    padding: 8px 12px;
+    float: right;
+    color: #555555;
+}
+#personalDescription{
+    margin-left: 8px;
+}
+.thirdDescription{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    color: #555555;
+    margin: 50px;
+}
+.thirdDescription li{
+    size: 3px;
+}
+footer #link{
+    color: #FFFFFF;
+}
+footer #online{
+    margin-top: 20px;
+}
 
 /* ////////////////////////////////////////////////////////// */
 @media screen and (max-width: 960px){
