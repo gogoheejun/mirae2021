@@ -13,57 +13,85 @@ body{
     font-family: "Noto Sans KR", Arial, Helvetica, sans-serif;
 }
 
-body #notice{
+/* ---------------------header01------------------------ */
+#header01{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+    background-color: #F5F5F5;
+}
+
+#icon_jordan{
+    width: 20px;    
+}
+
+#top_menu a{
+    color: black;
+    text-decoration: none;
+}
+#top_menu a:hover{color: grey;}
+
+
+/* ---------------------header02------------------------ */
+#header02{
+    display: flex;
     background-color: yellow;
-    padding: 5px;
-    height: 80px;
-    margin-right: 50px;
+    justify-content: space-between;    
+}
+#header02 #Nike_logo, #icon_set{
+    padding: 10px 40px 10px 40px;
+}
+#header02 .header-bottom-nav a{
+    color: black;
+    text-decoration: none;
 }
 
-body #notice #logo{
-    width: 50px;
-    padding: 16px 48px;    
+#Nike_logo{
+    width: 70px;
+    height: 30px;
 }
-
-.topMenu{
-   display: flex;
-   justify-content: flex-end;
+#Nike_logo:hover{
+    opacity: .5;    
 }
-
 #icon_set{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 50px;
 }
-
 #icon_set input{
     width: 140px;
     height: 20px;
-    margin-top: 17px;
-    margin-right: 20px;
 }
-
 .icon{
     width: 30px;
-    height: 30px;
-    margin-top: 15px;
+    height: 30px;    
 }
 
-
-header{    
-    /* display: flex; */
-    height: 100px;
-    padding: 0px 48px;
+/* ---------------------header03------------------------ */
+#header03{
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: space-between;
 }
 
-header a{
+#header03_title{
+    font-size: 20px;
+}
+
+#header03_menu{
+    padding: 30px 40px 10px 40px;
+}
+
+#header03_menu a{
     color: black;
-    text-decoration: none;    
+    text-decoration: none;
+    margin: 0 10px;
 }
-header a:hover{color: grey;}
-header h2{padding: 0px; margin: 0px;}
+#header03_menu a:hover{
+    color: grey;
+}
 
-/* bnv 구현 */
+
+
+/* ---------------------bnv 구현------------------------------ */
 header .header-bottom-nav{
     width:100%; height:20px;
 	display:flex;	
@@ -77,9 +105,9 @@ header .header-bottom-nav{
     text-decoration: underline;
 }
 .header-bottom-nav-sub-menu-container {
-	position:absolute;
+	position: absolute;
 	z-index:3;
-	width:1800px; height:0px;/*기본값 170px;*/
+	width:100%; height:0px;/*기본값 170px;*/
 	overflow:hidden;
 	transition:all 0.5s;
 	background:white;
@@ -104,16 +132,16 @@ header .header-bottom-nav{
     text-decoration:underline;   
 }
 .header-bottom-nav-sub-menu1 {
-    left:130px;
+    left:3%;
 }
 .header-bottom-nav-sub-menu2 {
-    left:230px;
+    left:17%;
 }
 .header-bottom-nav-sub-menu3 {
-    left:370px;
+    left:38%;
 }
 .header-bottom-nav-sub-menu4 {
-    left:480px;
+    left:52%;
 }
 .header-bottom-nav li {	
 	width:124px;
@@ -124,6 +152,7 @@ header .header-bottom-nav{
 }
 
 
+/* ----------------------------container------------------- */
 
 /* 왼쪽사이드와 본문영역을 가진 부모요소 */
 .container{

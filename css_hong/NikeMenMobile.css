@@ -3,32 +3,4 @@
     .container{
         flex-direction: column;
     }
-
-    .topMenu{
-        display: none;
-    }
-
-    #main_menu{
-        display: none;
-    }
-
-    #icon_set input{
-        display: none;
-    }
-
-    .icon{
-        margin: 0 5px;
-    }
-
-    #footer01 li{
-        min-width: 100px;
-    }
-
-    #footer02 p{
-        min-width: 100px;
-    }
-
-    #footer03 p{
-        min-width: 300px;
-    }
 }
