@@ -156,12 +156,15 @@ aside.side li a:hover{color: grey;}
 }
 .main div.product{
     display: inline-block;
-    margin: 24px 8px;
+    margin: 24px 12px;
 }
 .main img{    
-    width: 500px;
+    width: 440px;
     display: block;
     margin-bottom: 12px;  
+}
+.main img:hover{
+    opacity: .5;
 }
 .main div.product p{
     padding: 0px;
@@ -226,14 +229,17 @@ footer ul{
     margin: 0 10px;
 }
 
-#footer03 p{
-    margin: 0px 20px;
+.li_social{
+    float: left;
 }
 
+.icon_social{
+    background-color: grey;
+    width: 20px;
+    margin: 5px 0 0 5px;
+    border-radius: 10px;
+}
 
-/* 반응형 웹 - 미디어쿼리 문법 */
-@media screen and (max-width:800px){
-    .container, nav{
-        flex-direction: column;
-    }
+#footer03 p{
+    margin: 0px 20px;
 }
