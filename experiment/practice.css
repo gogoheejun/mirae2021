@@ -65,6 +65,7 @@ a.active, a:hover{
         font-size: 16px;
     }
 }
+
 @media (max-width: 860px){
     .checkbtn{
         display: block;
@@ -75,7 +76,7 @@ a.active, a:hover{
         height: 100vh;
         background: hotpink;
         top: 80px;
-        left: 0;
+        /* left: 0; */
         text-align: center; 
 
         left: 100%;
