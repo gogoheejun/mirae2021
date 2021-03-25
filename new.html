@@ -12,7 +12,7 @@
         <!-- 모바일 -->
         <link rel="stylesheet" href="./css_ma/mobile_new.css" media="(max-width:900px)">
         <!-- 테블릿,데스크탑 -->
-            <link rel="stylesheet" href="./css_ma/new.css" media="(min-width:900px)">
+         <link rel="stylesheet" href="./css_ma/new.css" media="(min-width:900px)">
     
     
 </head>
@@ -20,14 +20,16 @@
     <div id="wrapper">
         <header>
             <div id="top_menubox">
-                 <div id="logo_jodon" style=" width:20px; height:25px;">
-                    <img src="./image_ma/jordon.png" alt="" style="width: 20px; height: 25px;">
+                <div id="top_menubox_c1">
+                    <div id="logo_jodon" style=" width:20px; height:25px;">
+                        <img src="./image_ma/jordon.png" alt="" style="width: 20px; height: 25px;">
+                    </div>
+                     <div id="top_menu">
+                          <a href="">고객센터</a> |
+                          <a href="">멤버가입</a> |
+                          <a href="">로그인</a>                
+                     </div>
                 </div>
-                 <div id="top_menu">
-                      <a href="">고객센터</a> |
-                      <a href="">멤버가입</a> |
-                      <a href="">로그인</a>                
-                 </div>
             </div>
 
             <div id="top_menubox2">
@@ -36,7 +38,7 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">New Releases</a> </li>
                         <li><a href="#">Men</a></li>
                         <li><a href="#">Women</a></li>
                         <li><a href="#">Kids</a></li>
@@ -60,7 +62,8 @@
             </div>
             <h3 id="h3_mobile">신상품 전체보기</h3><!--모바일전용 h3-->
         </header>
-        <aside>
+        <div id="wrapper02">
+            <aside>
                 <h3>신상품 전체보기</h3>
                 <ul>
                     <li><a href="#">SNKRS</a></li>
@@ -231,12 +234,10 @@
                     <h5>1 컬러</h5>
                 </div>
               </div>   
-
-
-
-
            </article>
          </section>   
+        </div>
+       
         <footer>
             <div id="footer01">
                 <ul id="footera">
@@ -263,11 +264,15 @@
                     <li><a href="">나이키에 대하여</a></li>
                 </ul>
                     <ul>
-                        <li>SOCIAL</li>
-                        <li>인스타</li>
-                        <li>페이스북</li>
-                        <li>유튜브</li>
-                        <li>트위터</li>
+                        <li>SOCIAL </li>
+                        <li id="social">
+                            
+                                <a href="#"><img src="./image_ma/facebook_icon_fix.png" alt="">
+                                <a href="#"><img src="./image_ma/twitter_icon_fix.png" alt="">
+                                <a href="#"><img src="./image_ma/instagram_icon_fix.png" alt="">
+                                <a href="#"><img src="./image_ma/youtube_icon_fix.png" alt="">
+                            
+                        </li>
                     </ul>   
                     <ul id="foot_mobile"> <!--모바일 전용-->
                         <li><a href="#">주문배송</a></li>

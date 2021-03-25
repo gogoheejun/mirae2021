@@ -54,7 +54,7 @@ nav ul{
 }
 header{
     
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
    
 }
@@ -71,6 +71,8 @@ article{
     flex-direction: row;
 
     justify-content: flex-start; /*row-reverse배치면 right*/
+
+   
     
     margin-left: 5px;
     
@@ -80,6 +82,10 @@ article{
 }
 .item_bundle{
     width: 50%;
+}
+.item_bundle img:hover{
+
+    opacity: 0.7;
 }
 
 

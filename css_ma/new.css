@@ -12,6 +12,11 @@
     font-family:sans-serif ; 
 }
 
+#wrapper02{
+    width: 1850px;
+    margin: 0 auto;   
+}
+
 
 /* 웹에서 안보여줄 스타일 */
 
@@ -48,7 +53,7 @@ body{
 
 #wrapper{
     position: relative;
-    width: 1850px;
+    width: 100%;
     margin: 0 auto;   
 }
 
@@ -86,6 +91,7 @@ body{
 /* header */
 header{
      position: relative;
+     
 }
 #top_menubox{
     height: 36px;
@@ -106,16 +112,23 @@ header{
     font-size: 12px;
 }
 
+#top_menubox_c1{
+    position: relative;
+    
+    width: 1850px;
+    height: 36px;
+    margin: 0 auto;
+}
+
 /* top_menubox2 */
-
-
-
 
 
 
 #top_menubox2{
     position: relative;
+    width: 1850px;
     height: 60px;
+    margin: 0 auto;
     background-color:white;
 }
 #logo_nike{
@@ -134,6 +147,13 @@ nav{
 nav li{
     display: inline;
     margin-left: 30px;
+  
+    padding-bottom: 20px;
+}
+
+
+nav li:hover{
+    border-bottom: 2px solid black;
 }
 
 
@@ -144,7 +164,7 @@ nav li{
    width: 300px;
     position: absolute;
     right: 50px;
-    bottom: 5px;
+    bottom: -10px;
     
 }
 
@@ -158,7 +178,7 @@ nav li{
     width: 150px;
     height: 30px;
     margin-right: 30px;
-    margin-top: 3px;
+    margin-top: 9px;
     border-radius:1em;
 }
 #search_box:hover{
@@ -167,17 +187,23 @@ nav li{
 #search_box img{
     width: 28px;
     margin: 2px;
-    padding: 5px;
+    padding: 1px;
 }
 
 .iconicon{
-    width: 40px;
-    height: 40px;
+    
+    width: 50px;
+    height: 50px;
     text-align: center;
 }
+
+.iconicon img{
+    margin-top: 10px;
+}
+
 .iconicon:hover{
     
-    border-radius: 1em;
+    border-radius: 100em;
     background-color: rgb(177, 177, 177);
     
 }
@@ -230,7 +256,7 @@ section{
 article > div{
     float: left;
     margin-top: 30px;
-    margin-left: 72px;
+    margin-left: 80px;
 
 }
 /* 아이템박스 설계 */
@@ -250,13 +276,18 @@ h5{
     float: right;
 }
 
+.item_bundle img:hover{
+
+    opacity: 0.7;
+}
+
 
 
 /* footer */
 footer{
     background-color: rgb(0, 0, 0);
     float: left;
-    width: 1850px;
+    width: 100%;
     color: white;
     
 }
@@ -267,7 +298,8 @@ footer a:visited { color: white; text-decoration: none;}
 #footer01{
 
     height: 400px;
-    width: 1200px;
+    width: 1300px;
+   
    
     margin: 0 auto;
     padding-top: 50px;
@@ -346,6 +378,21 @@ footer a:visited { color: white; text-decoration: none;}
 #bottom04 :last-child{
     float: left;
     font-size: 12px;
+}
+
+
+
+#social li{
+    display: inline;
+}
+
+#social img{
+    width: 25px;
+    border-radius: 12.5px;
+    background-color: #888888
+}
+#social img:hover{
+    background-color: white
 }
 
 
