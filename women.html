@@ -9,11 +9,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="./css/women.css">
+    <link rel="stylesheet" href="./css/women.css" media="(min-width:900px)">
+    <link rel="stylesheet" href="./css/responsive.css" media="(max-width:900px)">
 
     <script src="./js/women.js">
         // Js
     </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    
 </head>
 <body>
         <header>
@@ -32,7 +37,7 @@
         
             <img src="./image/logo.png" id="logo">
         
-                <ul class="mainCategory" style="width: 430px; margin: 0 auto;">
+                <ul class="mainCategory" id="mainCategory" style="width: 430px; margin: 0 auto;">
                     <li>New Releases</li>
                     <li>Men</li>
                     <li>Women</li>
@@ -40,7 +45,7 @@
                     <li>Sale</li>
                 </ul>
             
-                <div class="heartBag" style="position: absolute; right: 30px;">
+                <div class="heartBag" id="heartBag" style="position: absolute; right: 30px;">
                     <img src="./image/icon_heart.png" id="heart" >
                     <img src="./image/icon_bag.png" id="bag">
             
@@ -68,14 +73,15 @@
 
     <div style="text-align: center;">
         <img src="./image/main1.png" id="nikeIndiBraImg">
+        <img src="./image/nikeindibraGirlImg.png" id="nikeindibraGirlImg">
     </div>
     
 
-    <div class="nikeIndiBra" style="text-align: center;">
+    <div class="nikeIndiBra">
         <p>나이키 인디 브라</p>
     </div>
 
-    <div class="nikeIndiBraDetail" style="text-align: center;">
+    <div class="nikeIndiBraDetail">
         <p>한층 더 업그레이드된 나이키 인디 스포츠 브라로</p>
         <p id="braDetail2">모든 움직임에서 자유로움을 느껴보세요.</p>
     </div>
@@ -85,7 +91,7 @@
     </div>
     
 
-    <p id="thisWeekStyling">이번 주 스타일링</p>
+    <h3 id="thisWeekStyling">이번 주 스타일링</h3>
 
     <div class="twoImages">
         <img src="./image/main4.png" id="main4" >
@@ -95,10 +101,10 @@
     </div>
     
 
-    <p id="springJacketStyle" style="text-align: center;">스프링 재킷 스타일</p>
-    <p id="springJacketStyleDetail" style="text-align: center;">봄을 위한 여성 재킷 제품들과 함께 레이어드 룩을 완성해보세요.</p>
+    <p id="springJacketStyle">스프링 재킷 스타일</p>
+    <p id="springJacketStyleDetail">봄을 위한 여성 재킷 제품들과 함께 레이어드 룩을 완성해보세요.</p>
 
-    <div style="text-align: center;">
+    <div class="springBtn"  style="text-align: center;">
         <img src="./image/btn_purchase.png">
         <img src="./image/btn_more_detail.png" id="btn_more_detail">
     </div>
@@ -108,9 +114,9 @@
     </div>
     
 
-    <p id="nikeAirMax" style="text-align: center;">나이키 에어맥스 비바</p>
-    <p id="nikeAirMaxDetail" style="text-align: center;">맥스 에어 유닛과 아이코닉한 디자인의 비바와 함꼐</p>
-    <p id="nikeAirMaxDetail2" style="text-align: center;">시선을 압도하는 세련된 스타일을 연출해보세요.</p>
+    <p id="nikeAirMax">나이키 에어맥스 비바</p>
+    <p id="nikeAirMaxDetail" >맥스 에어 유닛과 아이코닉한 디자인의 비바와 함꼐</p>
+    <p id="nikeAirMaxDetail2">시선을 압도하는 세련된 스타일을 연출해보세요.</p>
     
     <div id="AirMaxBtn" style="text-align: center;">
         <img src="./image/btn_purchase.png">
@@ -118,11 +124,12 @@
     
     <div style="text-align: center;">
         <img src="./image/main9.png" id="newSpringImg">
+        <img src="./image/newspring.png" id="mobileNewSpring">
     </div>
     
     
-    <p id="styleForNewStyling" style="text-align: center;">새로운 봄을 위한 스타일링</p>
-    <p id="styleForNewStylingDetail" style="text-align: center;">W CONCEPT만의 감각을 담아 새롭게 해석한 스타일링으로 이번 봄 감각적인 룩을 연출해보세요.</p>
+    <p id="styleForNewStyling">새로운 봄을 위한 스타일링</p>
+    <p id="styleForNewStylingDetail" >W CONCEPT만의 감각을 담아 새롭게 해석한 스타일링으로 이번 봄 감각적인 룩을 연출해보세요.</p>
 
     <div id="springBtn" style="text-align: center;">
         <img src="./image/btn_purchase.png">
@@ -130,12 +137,13 @@
     
     <div style="text-align: center;">
         <img src="./image/main11.png" id="nikeTrailCollectionImg">
+        <img src="./image/niketrail.png" id="niketrail">
     </div>
     
 
-    <p id="nikeTrailCollection"  style="text-align: center;">나이키 트레일 컬렉션</p>
-    <p id="nikeTrailCollectionDetail" style="text-align: center;">길들여지지 않은 오프로드로 러닝을 시작하고</p>
-    <p id="nikeTrailCollectionDetail2" style="text-align: center;">트레일 러너가 되어보세요.</p>
+    <p id="nikeTrailCollection" >나이키 트레일 컬렉션</p>
+    <p id="nikeTrailCollectionDetail" >길들여지지 않은 오프로드로 러닝을 시작하고</p>
+    <p id="nikeTrailCollectionDetail2" >트레일 러너가 되어보세요.</p>
 
     <div class="twoBtn" style="text-align: center;">
         <img src="./image/btn_purchase.png">
@@ -145,15 +153,16 @@
     <article>
 
         <div class="braTaiz">
-            <img src="./image/1_1.png" alt="">
-            <img src="./image/1_2.png" alt="">
+            <img src="./image/1_1.png" id="braTaizOne">
+            <img src="./image/1_2.png" id="braTaizTwo">
         </div>
 
         <div class="yoga">
-            <img src="./image/yoga.png" alt="">
+            <img src="./image/yoga.png" id="desktopYoga">
+            <img src="./image/mobileyoga.png" id="mobileYoga">
         </div>
 
-        <div class="yogaDescription" style="text-align: center;">
+        <div class="yogaDescription" >
             <h4>나이키 요가 컬렉션</h4>
             <h1>모든 동작에 완벽한 편안함을 선사하다</h1>
             <p id="yogaP">매트부터 침대, 그리고 당신이 있는 모든곳에서.</p>
@@ -163,8 +172,8 @@
         </div>
 
         <div class="twoShoses">
-            <img src="./image/firstshoses.png" alt="">
-            <img src="./image/secondshoses.png" alt="">
+            <img src="./image/firstshoses.png" id="zoom" alt="">
+            <img src="./image/secondshoses.png" id="airZotic" alt="">
         </div>
 
 
@@ -173,7 +182,20 @@
             <img src="./image/bbb.png" alt="" id="bbb">
             <img src="./image/ccc.png" alt="" id="ccc">
         </div>
-    </article>
+
+        <div>
+            <h4 id="recommandProduction">추천 제품</h4>
+        </div>
+
+        <div class="cycle-slideshow" cycle-slideshow data-cycle-loader="wait" data-cycle-timeout=1000>
+            
+            <div class="cycle-pager"></div>
+            <img src="./image/shadow.png" id="showOne">
+            <img src="./image/row.png" alt="" id="showTwo">
+            <img src="./image/ma2.png" alt="" id="showThree">
+            <img src="./image/superlab.png" alt="" id="showFour">
+        </div>
+    </article
     
     
     <!-- ====================================================  footer  ============================================= -->
@@ -212,9 +234,17 @@
         </ul>
     </div>
 
+    <div>
+        <ul class="mobileOneDescription">
+            <li>주문배송</li>
+            <li>매장안내</li>
+            <li>고객센터</li>
+        </ul>
+    </div>
+
     <div class="secondDescription">
         <ul class="secondDescriptionUl">
-            <li>대한민국</li>
+            <li id="korea">대한민국</li>
             <li id="nikeCopyRight">2021 Nike. lnc. All Right Reserved</li>
         </ul>
 

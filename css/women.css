@@ -1,6 +1,10 @@
+@media all and (min-width: 800px){
+
+
 *{margin: 0; padding: 0;}
 
 ul{list-style: none;}
+
 
 header{
     display: flex;
@@ -51,6 +55,10 @@ header .line3 li{
     float: center;
 }
 
+#nikeindibraGirlImg{
+    display: none;
+}
+
 #text_nike_indi_bra{
     display: block;
 }
@@ -60,10 +68,12 @@ header .line3 li{
     font-size: 40px;
     font-weight: bold;
     margin-top: 30px;
+    text-align: center;
 }
 
 .nikeIndiBraDetail{
     margin-top: -10px;
+    text-align: center;
 }
 
 #braDetail2{
@@ -95,10 +105,12 @@ header .line3 li{
     font-size: 40px;
     font-weight: bold;
     margin-top: 30px;
+    text-align: center;
 }
 
 #springJacketStyleDetail{
     margin-top: -13px;
+    text-align: center;
 }
 
 #btn_more_detail{
@@ -110,14 +122,17 @@ header .line3 li{
     font-size: 40px;
     font-weight: bold;
     margin-top: 30px;
+    text-align: center;
 }
 
 #nikeAirMaxDetail{
     margin-top: -13px;
+    text-align: center;
 }
 
 #nikeAirMaxDetail2{
     margin-top: -13px;
+    text-align: center;
 }
 
 #AirMaxBtn{
@@ -129,10 +144,12 @@ header .line3 li{
     font-size: 40px;
     font-weight: bold;
     margin-top: 30px;
+    text-align: center;
 }
 
 #styleForNewStylingDetail{
     margin-top: -13px;
+    text-align: center;
 }
 
 #springBtn{
@@ -144,14 +161,21 @@ header .line3 li{
     font-size: 40px;
     font-weight: bold;
     margin-top: 30px;
+    text-align: center;
+}
+#niketrail{
+    display: none;
+    
 }
 
 #nikeTrailCollectionDetail{
     margin-top: -13px;
+    text-align: center;
 }
 
 #nikeTrailCollectionDetail2{
     margin-top: -13px;
+    text-align: center;
 }
 
 #nikeIndiBraImg{
@@ -165,6 +189,10 @@ header .line3 li{
 
 #newSpringImg{
     width: 94%;
+}
+
+#mobileNewSpring{
+    display: none;
 }
 
 #nikeTrailCollectionImg{
@@ -207,6 +235,7 @@ article .yoga img{
 
 article .yogaDescription{
     margin-top: -13px;
+    text-align: center;
 }
 
 article .yogaDescription h4{
@@ -246,12 +275,84 @@ article .threePic{
     margin-top: 50px;
 }
 
+article .displayShoses{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#recommandProduction{
+    size: 20px; 
+    font: bold;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.cycle-slideshow .cycle-slideshow *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cycle-slideshow{
+    width: 500px;
+    min-width: 200px;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 0;
+    position: relative;
+}
+.cycle-slideshow div.slide{
+    width: 100%;
+    height: 100%;
+}
+.cycle-slideshow img{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    padding: 0;
+    display: block;
+}
+.cycle-slideshow img:first-child{
+    position: static;
+    z-index: 100;
+}
+.cycle-pager{
+    text-align: center;
+    width: 100%;
+    z-index: 500;
+    position: absolute;
+    top: 2px;
+    overflow: hidden;
+}
+.cycle-pager span{
+    font-family: arial;
+    font-size: 50px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    color: #ddd;
+    cursor: pointer;
+}
+.cycle-pager span.cycle-pager-active{
+    color: #D69746;
+}
+.cycle-pager >* {cursor: pointer;}
+
+#mobileYoga{
+    display: none;
+}
 
 /* ================================ footer ========================== */
+
 footer{
     background-color: #000000;
     color: #FFFFFF;
     
+}
+
+.mobileOneDescription{
+    display: none;
 }
 
 footer .oneDescription{
@@ -355,3 +456,6 @@ footer #online{
     margin-top: 20px;
 }
 
+}
+
+/* slide show */
