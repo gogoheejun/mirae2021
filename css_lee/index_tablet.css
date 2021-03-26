@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px dotted red; */
+}
+
+@font-face{
+    font-family: "p font";
+    src: url("../font_lee/paybooc\ Medium.ttf.ttf");
+}
+
+@font-face{
+    font-family: "h font";
+    src: url("../font_lee/paybooc\ Bold.ttf.ttf.ttf");
+}
+
+.only_mobile{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+article>*{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+p{
+    font-family: 'p font', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'h font', sans-serif;
+    padding: 30px 0px 30px 0px;
+    
+}
+h1{
+    font-weight: bold;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    background-color: #3f3f3f
+}
+
+header{
+    display: none;
+}
+
+.none_tablet{
+    display: none;
+}
+
+#nike_logo{
+    width: 70px;
+    align-self: center;
+    flex: 1;
+}
+
+.icon{
+    width: 25px;
+    margin: 5px;
+    padding: 1px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    
+}
+
+.icon:hover{
+    background-color: #dddddd;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+article img{
+    width: 100%;
+}
+
+#style-magazine{
+    display: flex;
+    justify-content: space-between;
+}
+
+.style-magazine-image{
+    width: 100%;
+}
+
+.sale_button{
+    border: 1px dotted blue;
+    padding: 7px 20px;
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+    border-bottom-left-radius: 52px;
+    border-bottom-right-radius: 52px;
+    color: white;
+    background-color: black;
+    text-decoration-line: none;
+    font-family: 'p font', sans-serif;
+}
+
+.sale_button:hover{
+    color: white;
+    background-color: #444444;
+}
+.sale_button_in_image{
+    position: absolute;
+    bottom: 50px;
+    background-color: white;
+    color: black;
+    padding:10px 20px;
+    border-radius: 25px;
+    text-decoration-line: none;
+    font-family: 'h font', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sale_button_in_image:hover{
+    color: black;
+    background-color: #eeeeee;
+}
+
+#sale_button_in_trending1{
+    left: 50px;
+}
+#sale_button_in_trending2{
+    right: 100px;
+}
+
+#apparel_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.apparel-essentials:last-child{
+    display: none;
+}
+
+.card-title{
+    margin-top: 8px;
+    font-family: 'p font', sans-serif;
+    font-weight: bold;
+}
+.card-text{
+    color: #333333;
+    font-family: 'p font', sans-serif;
+    margin-bottom: 0px;
+}
+
+.trending-now-image{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+.trending-now-comment{
+    
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    text-align: end;
+}
+
+.trending-now-comment p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.trending-now-comment a:last-child{
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+
+.trending-now-comment a:last-child:hover{
+    color: #eeeeee;
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+
+.feature_shoes_container{
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+}
+.feature_shoes_container img{
+    width: 300px;
+}
+
+.feature_shoes_container a{
+    scroll-snap-align: start;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.feature_item p{
+    color: black;
+    margin-bottom: 0px;
+}
+
+.feature_shoes_container::-webkit-scrollbar {
+    height: 20px;
+    width: 100px;
+  }
+.feature_shoes_container::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+  }
+
+.feature_shoes_container::-webkit-scrollbar-thumb:active {
+    background-color: #333333;
+  }
+
+.feature_shoes_container::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+footer{
+    background-color: black;
+    color: #888888;
+    font-size: 11px;
+}
+
+footer li{
+    color: white;
+}
+
+footer ul:first-child a{
+    color: white;
+}
+
+footer div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul a:hover{
+    color: white;
+}
+footer ul{
+    margin-top: 10px;
+}
+
+footer li{
+    margin:7px 3px;
+}
+
+footer a{
+    color: #888888;
+}
+
+footer img{
+    width: 25px;
+    border-radius: 12.5px;
+    background-color: #888888
+}
+footer img:hover{
+    background-color: white
+}
+
+footer ul:last-child li{
+    display: inline-block;
+}
+
+footer ul:last-child li:first-child{
+    display: block;
+}
+
+#information_region{
+    display: flex;
+    padding-top: 50px;
+}
+
+#infromation_region ul:first-child{
+    color: white;
+}
+
+footer>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+footer div:nth-child(2) img{
+    background-color: black;
+    width: 20px;
+}
+
+footer div:nth-child(2) a{
+    margin-right: 10px;
+}
+
+footer div:nth-child(2) a:hover{
+    color: white;
+}
+
+footer>div:last-child{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #222222;
+    padding-left: 30px;
+}
+footer>div:last-child a{
+    color: white;
+}
+footer>div:last-child div{
+    display: block;
+    margin-bottom: 15px;
+}
+footer>div:last-child>div:first-child{
+    margin-bottom: 25px;
+}
+
+footer>div:last-child>div:last-child{
+    margin-bottom: 25px;
+}
+footer>div:last-child>div:first-child p{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+footer>div:last-child>div:last-child p{
+    margin-bottom: 0px;
+    display: block;
+}
