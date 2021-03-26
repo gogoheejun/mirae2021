@@ -22,8 +22,10 @@
     <script src="./js_ma/new.js"></script>
     
     
+    
 </head>
 <body>
+   
     <div id="wrapper">
         <header>
             <div id="top_menubox">
@@ -50,6 +52,7 @@
                         <li><a href="#">Women</a></li>
                         <li><a href="#">Kids</a></li>
                     </ul>
+                    <!-- 메가메뉴 -->
                     <div class="header-bottom-nav-sub-menu-container">
                         <div class="mega_ul">
                             <ul class="mega">
@@ -80,8 +83,12 @@
                                 <li><a href="#">NBA</a></li>
                                 <li><a href="#">ACG</a></li>
                             </ul>
-                        </div>		
-                    </section> 
+                        </div>
+                     </div>		
+                     
+         
+                                    
+                     
 
                 </nav>
                 <div id="text_icon_box">
@@ -96,11 +103,13 @@
                 <div id="text_icon_box_mobile">   <!--모바일전용 div-->
                         <img src="./image_ma/favorite.png" alt="" style=" width: 30px; height: 30px;" >
                         <img src="./image_ma/search.png" alt="" style= "width: 30px; height: 30px;" >
-                        <button type="button"><img src="./image_ma/3didas.png 경로" alt=""></button>
+                        <label for="check" class="checkbtn" style="display: inline;">
+                            <img src="./image_ma/3didas.png"  alt="" style="width: 30px; height: 30px;">
+                        </label>
 
                 </div>
             </div>
-            <h3 id="h3_mobile">신상품 전체보기</h3><!--모바일전용 h3-->
+            <h4 id="h3_mobile">신상품 전체보기</h4><!--모바일전용 h3-->
         </header>
         <div id="wrapper02">
             <aside>
@@ -164,6 +173,7 @@
          </aside>
          <section>
             <article>
+                
                 <div class="item_bundle">
                     <img src="./image_ma/nike01.jpg" alt="나이키사진입니다">
                     <div>
@@ -348,25 +358,15 @@
             
         </footer>
     </div>
-        
 
+    <!-- 모바일전용 숨겨진 사이드메뉴 -->
+    <input type="checkbox" id="check" style="display: none;">
+    <ul class="adidasmenu">
+        <li><a href="">New Releases</a></li>
+        <li><a href="">Men</a></li>
+        <li><a href="">Women</a></li>
+        <li><a href="">Kids</a></li>  
+    </ul>
 
-    <!-- 모바일전용 메가메뉴
-    <div id="mega_mobile">
-        <ul>
-            <li id="quit" onclick="quit()">X</li>
-            <li><a href="">New Releases     ></a></li>
-            <li><a href="">Men              ></a></li>
-            <li><a href="">Women            ></a></li>
-            <li><a href="">Kids             ></a></li>
-        </ul>
-    </div>
-    <script>
-        function quit(){
-            document.getElementById("mega_mobile").display="none";
-        }
-    </script>
-        
-    <div id="blur"></div> -->
 </body>
 </html>
