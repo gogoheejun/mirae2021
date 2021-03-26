@@ -1,4 +1,4 @@
 
 function asdfasdf() {
-    alert();
+    open('./board2_lee.html','_self');
 }
