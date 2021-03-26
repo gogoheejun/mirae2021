@@ -1,0 +1,315 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+
+@media all and (min-width:320px){
+
+  .top{
+      display: none;
+  }
+
+  #mainCategory{
+      display: none;
+  }
+
+
+  .line2{
+    display: inline-flex;
+
+    margin-top: 20px;
+  }
+
+  #logo{
+      margin-left: 12px;
+  }
+  
+  .womenCategory{
+      display: inline-flex;
+  }
+
+  #nikeWomen{
+    padding: 0px 12px;
+    margin-left: 10px;
+  }
+
+  .womenCategory li{
+      padding: 0px 24px;
+      margin-left: -28px;
+  }
+
+  #nikeIndiBraImg{
+      display: none;
+  }
+
+  .nikeIndiBra p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .nikeIndiBraDetail{
+      margin-left: 20px;
+  }
+
+  #braBtn{
+      margin-left: -420px;
+      margin-bottom: 50px;
+  }
+
+  #thisWeekStyling{
+    font-size: 20px;
+    margin-left: 20px;
+    font: bold;
+  }
+
+  #main4{
+      display: none;
+  }
+
+  #main5{
+      width: 94%;
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+
+  #springJacketStyle{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  #springJacketStyleDetail{
+      margin-left: 20px;
+  }
+
+  .springBtn{
+    margin-left: -220px;
+    margin-bottom: 50px;
+  }
+
+  #nikeAirMaxImg{
+      width: 94%;
+  }
+
+  #nikeAirMax{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  #nikeAirMaxDetail{
+    margin-left: 20px;
+  }
+
+  #nikeAirMaxDetail2{
+      margin-left: 20px;
+  }
+
+  #AirMaxBtn{
+    margin-left: -420px;
+    margin-bottom: 50px;
+  }
+
+  #newSpringImg{
+      display: none;
+  }
+
+  #styleForNewStyling{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  #styleForNewStylingDetail{
+      margin-left: 20px;
+  }
+
+  #springBtn{
+    margin-left: -420px;
+    margin-bottom: 50px;
+  }
+
+  #nikeTrailCollectionImg{
+      display: none;
+  }
+
+  #niketrail{
+      width: 90%;
+  }
+
+  #nikeTrailCollection{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  #nikeTrailCollectionDetail{
+    margin-left: 50px;
+  }
+  
+  #nikeTrailCollectionDetail2{
+      margin-left: 50px;
+  }
+
+  .twoBtn{
+    margin-left: -230px;
+    margin-bottom: 50px;
+  }
+
+  #braTaizOne{
+      width: 94%;
+      margin-left: 20px;
+  }
+
+  #braTaizTwo{
+      width: 94%;
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+
+  #desktopYoga{
+      display: none;
+  }
+
+  #mobileYoga{
+      width: 94%;
+      margin-left: 20px;
+      margin-top: 50px;
+  }
+
+  .yogaDescription{
+      margin-left: 25px;
+      margin-bottom: 50px;
+  }
+
+  .yogaDescription p{
+      margin-top: -10px;
+  }
+  
+  #yogaP{
+      margin-top: 15px;
+  }
+
+  #zoom{
+      width: 94%;
+  }
+
+  #airZotic{
+      width: 94%;
+  }
+
+  .twoShoses{
+      margin-left: 20px;
+  }
+
+  #ccc{
+      display: none;
+  }
+
+  #aaa{
+      width: 45%;
+      margin-left: 20px;
+      margin-bottom: 50px;
+      margin-top: 50px;
+  }
+
+  #bbb{
+      width: 45%;
+      margin-bottom: 50px;
+      margin-top: 50px;
+  }
+
+  #recommandProduction{
+      margin-left: 20px;
+  }
+
+  #showOne{
+      width: 94%;
+      margin-left: 10px;
+      margin-bottom: 50px;
+  }
+
+  #showTwo{
+      width: 94%;
+      margin-left: 10px;
+      margin-bottom: 50px;
+  }
+
+  #showThree{
+      width: 94%;
+      margin-left: 10px;
+      margin-bottom: 50px;
+  }
+
+  #showFour{
+      width: 94%;
+      margin-left: 10px;
+      margin-bottom: 50px;
+  }
+
+  footer{
+      background-color: #000000;
+      color: #555555;
+  }
+
+  .oneDescription{
+      display: none;
+  }
+
+  .mobileOneDescription{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      padding: 8px 12px;
+      size: 30px;
+      color: #FFFFFF;
+      justify-content: space-around;
+      margin-top: 20px;
+  }
+
+  .secondDescriptionUl{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  #nikeCopyRight{
+      margin-left: -50px;
+  }
+
+  #korea{
+      color: #FFFFFF;
+  }
+
+  .secondDescriptionUl2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #personalDescription{
+      margin-left: -50px;
+  }
+
+  .thirdDescription{
+      size: 10px;
+  }
+
+  #online{
+      margin-top: 40px;
+  }
+}

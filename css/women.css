@@ -1,0 +1,466 @@
+@media all and (min-width: 800px){
+
+
+*{margin: 0; padding: 0;}
+
+ul{list-style: none;}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 12px;
+}
+
+.topMenu{
+    display: inline-flex;
+    float: right;
+    margin-right: 20px;
+}
+
+#notify{
+    text-decoration: none;
+        color: black;
+}
+
+header .line2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#logo{
+    margin-left: 20px;
+}
+
+header .mainCategory li{
+    display: inline-flex;
+    padding: 8px 12px;
+}
+
+.heartBag{
+    display: inline-flex;
+    float: right;
+}
+
+header .line3{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#nikeWomen{
+    margin-left: 20px;
+}
+
+header .line3 li{
+    display: inline;
+    padding: 8px 12px;
+    float: center;
+}
+
+#nikeindibraGirlImg{
+    display: none;
+}
+
+#text_nike_indi_bra{
+    display: block;
+}
+
+.nikeIndiBra{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nikeIndiBraDetail{
+    margin-top: -10px;
+    text-align: center;
+}
+
+#braDetail2{
+    margin-top: -13px;
+}
+
+#thisWeekStyling{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.twoImages{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#main4{
+    display: inline;
+    width: 48%;
+}
+
+#main5{
+    display: inline;
+    width: 48%;
+}
+
+#springJacketStyle{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#springJacketStyleDetail{
+    margin-top: -13px;
+    text-align: center;
+}
+
+#btn_more_detail{
+    margin-top: -8px;
+}
+
+#nikeAirMax{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#nikeAirMaxDetail{
+    margin-top: -13px;
+    text-align: center;
+}
+
+#nikeAirMaxDetail2{
+    margin-top: -13px;
+    text-align: center;
+}
+
+#AirMaxBtn{
+    margin-bottom: 80px;
+}
+
+#styleForNewStyling{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#styleForNewStylingDetail{
+    margin-top: -13px;
+    text-align: center;
+}
+
+#springBtn{
+    margin-bottom: 80px;
+}
+
+#nikeTrailCollection{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+#niketrail{
+    display: none;
+    
+}
+
+#nikeTrailCollectionDetail{
+    margin-top: -13px;
+    text-align: center;
+}
+
+#nikeTrailCollectionDetail2{
+    margin-top: -13px;
+    text-align: center;
+}
+
+#nikeIndiBraImg{
+    width: 94%;
+}
+
+#nikeAirMaxImg{
+    width: 94%;
+    margin-top: 50px;
+}
+
+#newSpringImg{
+    width: 94%;
+}
+
+#mobileNewSpring{
+    display: none;
+}
+
+#nikeTrailCollectionImg{
+    width: 94%;
+}
+
+#btn_more_detail{
+    margin-top: 3px;
+}
+
+#NikeWomen{
+    size: 40px;
+    font-weight: bold;
+}
+
+
+/* ================================  article  ======================== */
+
+article .braTaiz{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+article .braTaiz img{
+    width: 47%;
+}
+
+article .yoga{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 35px;
+    justify-content: space-evenly;
+}
+
+article .yoga img{
+    width: 94%;
+}
+
+article .yogaDescription{
+    margin-top: -13px;
+    text-align: center;
+}
+
+article .yogaDescription h4{
+    margin-top: 20px;
+}
+
+article .yogaDescription #yogaP{
+    margin-top: 13px;
+}
+article .yogaDescription p{
+    margin-top: -13px;
+}
+article .twoShoses img{
+    width: 47%;
+}
+
+article .twoShoses{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+article #aaa{
+    width: 32%;
+}
+
+article #bbb{
+    width: 32%;
+}
+
+article #ccc{
+    width: 32%;
+}
+
+article .threePic{
+    margin-top: 50px;
+}
+
+article .displayShoses{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#recommandProduction{
+    size: 20px; 
+    font: bold;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.cycle-slideshow .cycle-slideshow *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cycle-slideshow{
+    width: 500px;
+    min-width: 200px;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 0;
+    position: relative;
+}
+.cycle-slideshow div.slide{
+    width: 100%;
+    height: 100%;
+}
+.cycle-slideshow img{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    padding: 0;
+    display: block;
+}
+.cycle-slideshow img:first-child{
+    position: static;
+    z-index: 100;
+}
+.cycle-pager{
+    text-align: center;
+    width: 100%;
+    z-index: 500;
+    position: absolute;
+    top: 2px;
+    overflow: hidden;
+}
+.cycle-pager span{
+    font-family: arial;
+    font-size: 50px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    color: #ddd;
+    cursor: pointer;
+}
+.cycle-pager span.cycle-pager-active{
+    color: #D69746;
+}
+.cycle-pager >* {cursor: pointer;}
+
+#mobileYoga{
+    display: none;
+}
+
+/* ================================ footer ========================== */
+
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    
+}
+
+.mobileOneDescription{
+    display: none;
+}
+
+footer .oneDescription{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items:flex-start;
+    margin: 50px;
+}
+
+footer .footer1line{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+footer .footer2line{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+footer .footer2line li{
+    size: 8px;
+    color: #555555;
+}
+
+#customerCenter{
+    color: #FFFFFF;
+}
+
+
+footer .footer3line{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+footer .footer4line{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#regardingNike{
+    size: 8px;
+    color: #555555;
+}
+
+footer .secondDescription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.secondDescriptionUl{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 8px 12px;
+    size: 8px;
+    margin-left: 10px;
+}
+
+#nikeCopyRight{
+    margin-left: 10px;
+    color: #555555;
+    size: 8px;
+}
+
+.secondDescriptionUl2{
+    display: inline-flex;
+    flex-direction:row;
+    padding: 8px 12px;
+    float: right;
+    color: #555555;
+}
+
+#personalDescription{
+    margin-left: 8px;
+}
+
+.thirdDescription{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    align-items: flex-start;
+    color: #555555;
+    margin: 50px;
+}
+
+.thirdDescription li{
+    size: 3px;
+}
+
+footer #link{
+    color: #FFFFFF;
+}
+
+footer #online{
+    margin-top: 20px;
+}
+
+}
+
+/* slide show */
