@@ -72,7 +72,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 
 #jordon_logo{
@@ -265,21 +264,6 @@ nav *{
     right: 100px;
 }
 
-.card-title{
-    margin-top: 8px;
-    font-family: 'p font', sans-serif;
-    font-weight: bold;
-}
-.card-text{
-    color: #333333;
-    font-family: 'p font', sans-serif;
-    margin-bottom: 0px;
-}
-
-.col-sm-6{
-    width: 24.95%;
-}
-
 #season_best{
     margin-left: auto;
     margin-right: auto;
@@ -314,6 +298,7 @@ nav *{
     color: white;
     text-decoration-line: none;
     font-size: 25px;
+    text-align: start;
 }
 
 .button_in_carousel2 a{
@@ -332,6 +317,7 @@ nav *{
     color: white;
     text-decoration-line: none;
     font-size: 25px;
+    text-align: start;
 }
 
 .button_in_carousel3 a{
@@ -449,6 +435,13 @@ footer div:nth-child(2) img{
     background-color: black;
     width: 20px;
 }
+footer div:nth-child(2) a{
+    margin-right: 10px;
+}
+
+footer div:nth-child(2) a:hover{
+    color: white;
+}
 
 footer>div:last-child{
     display: flex;
@@ -497,13 +490,23 @@ footer>div:last-child>div:last-child p{
     margin-left: 10px;
 }
 
+.feature_item{
+    text-align: start;
+}
+
 .feature_item p{
     color: black;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.feature_item_title{
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .feature_shoes_container::-webkit-scrollbar {
-    height: 10px;
+    height: 12px;
     width: 100px;
   }
 .feature_shoes_container::-webkit-scrollbar-thumb {

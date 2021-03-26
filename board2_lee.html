@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+
+    <link rel="stylesheet" href="./css_lee/board_lee.css">
+    <script src="./js_lee/board_lee.js"></script>
+</head>
+<body onload="loaded()">
+    <div id="container">
+        <header>
+             <!-- 조던 로고 -->
+             <a href="#" class="logo_a"><img id="jordon_logo" src="./image_lee/index_icon/index_jordon.png"
+                alt="jordon"></a>
+        <!-- 앵커 -->
+        <ul id="sub_menu">
+            <li><a href="#">고객센터</a></li> |
+            <li><a href="#">멤버 가입</a></li> |
+            <li><a href="#">로그인</a></li>
+        </ul>
+        </header>
+
+        <nav>
+            <!-- 나이키 로고 -->
+            <a href="#" class="logo_a"><img id="nike_logo" src="./image_lee/index_icon/index_nike_logo.png"
+                    alt="nike"></a>
+
+            <!-- 메뉴 카테고리 -->
+            <ul id="main_category" class="none_tablet">
+                <li><a href="#">New Releases</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+            <span id="option_menu_region" class="none_tablet">
+                <!-- 검색바 -->
+                <a href="#" id="search_box">
+                    <span>
+                        <img class="icon" src="./image_lee/index_icon/index_search_icon.png" alt="search">
+                        <p class="none_tablet">검색</p>
+                    </span>
+                </a>
+                <!-- favor 아이콘 -->
+                <a href="#"><img src="./image_lee/index_icon/index_favorite_icon.png" alt="favorite" class="icon"></a>
+                <!-- 장바구니 아이콘 -->
+                <a href="#"><img src="./image_lee/index_icon/index_briefcase_icon.png" alt="basket" class="icon"></a>
+            </span>
+            <span id="option_menu_region_tablet">
+                <!-- favor 아이콘 -->
+                <a href="#"><img src="./image_lee/index_icon/index_briefcase_icon.png" alt="favorite" class="icon"></a>
+                <!-- favor 아이콘 -->
+                <a href="#"><img src="./image_lee/index_icon/index_search_icon.png" alt="favorite" class="icon"></a>
+                <!-- 장바구니 아이콘 -->
+                <a href="#"><img src="./image_lee/index_icon/index_navi_icon.png" alt="basket" class="icon"></a>
+            </span>
+        </nav>
+
+        <article>
+            <div id="notice_container">
+                <h4>CUSTOMER CENTER</h4>
+                <ul id="notice_title">
+                    <li><a href="">고객센터</a></li>
+                    <li><a href="">공지사항</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">문의하기</a></li>
+                    <li><a href="">매장안내</a></li>
+                    <li><a href="">A/S 안내조회</a></li>
+                    <li><a href="">대리점 개설문의</a></li>
+                    <li><a href="">멤버십</a></li>
+                </ul>
+                <ul id="notice_sub">
+                    <li><a href="">회원 가입/변경/탈퇴</a></li> | 
+                    <li><a href="">취소/교환/반품/AS</a></li> | 
+                    <li><a href="">주문/결제</a></li> | 
+                    <li><a href="">배송관련</a></li> | 
+                    <li><a href="">멤버십</a></li>
+                </ul>
+            </div>
+            
+        </article>
+
+        <footer>
+            <div id="information_region">
+                <div>
+                    <ul>
+                        <li><a href="#">주문배송</a></li>
+                        <li><a href="./store.html">매장안내</a></li>
+                        <li><a href="#">나이키 트레이닝 가이드</a></li>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">멤버 가입</a></li>
+                    </ul>
+                    <ul>
+                        <li>고객센터</li>
+                        <li><a href="#">010-4352-6954</a></li>
+                        <li><a href="#">주문/결제</a></li>
+                        <li><a href="#">배송</a></li>
+                        <li><a href="#">주문배송조회</a></li>
+                        <li><a href="#">멤버쉽 혜택/서비스</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="./board_lee.html">1:1 문의</a></li>
+                        <li><a href="#">1:1 이메일 문의</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+
+                    <ul>
+                        <li>ABOUT NIKE</li>
+                        <li><a href="">나이키에 대하여</a></li>
+                    </ul>
+
+                    <ul>
+                        <li>SOCIAL</li>
+                        <li><a href="#"><img src="./image_lee/index_icon/twitter_icon_fix.png" alt=""></a></li>
+                        <li><a href="#"><img src="./image_lee/index_icon/facebook_icon_fix.png" alt=""></a></li>
+                        <li><a href="#"><img src="./image_lee/index_icon/youtube_icon_fix.png" alt=""></a></li>
+                        <li><a href="#"><img src="./image_lee/index_icon/instagram_icon_fix.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="only_mobile" id="information_region_mobile">
+                    <ul>
+                        <li><a href="#">주문배송</a></li>
+                        <li><a href="#">매장안내</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <a href="#" style="margin: 0px; padding: 0px;"><img src="./image_lee/index_icon/location_icon.png"
+                            alt="">대한민국</a>
+                    <p style="margin-bottom: 0px;">&#169; 2021 Nike, Inc. All Rights Reserved</p>
+                </div>
+                <div>
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보처리방침</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <p>(유)나이키코리아</p>
+                        <p>대표: KIM MYUNG HEE</p>
+                        <p>서울 강남구 테헤라라로 152 강남파이낸스센터 31층</p>
+                    </div>
+                    <div>
+                        <p>통신판매업신고번호 : 2011-서울강남-03461</p>
+                        <p>등록번호 : 220-88-09068</p>
+                        <p class="none_tablet"><a href="#">사업자정보확인</a></p>
+                        <br>
+                        <p>고객센터 전화문의 <a href="">010-4352-6954</a></p>
+                    </div>
+                    <div>
+                        <p>FAX : 02-6744-5880</p>
+                        <p>E-mail : service&#64;nike.co.kr</p>
+                        <p>호스팅서비스사업자 : 브리즈</p>
+                    </div>
+                </div>
+                <div>
+                    <p>안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한 <br class="none_tablet"> KG 이니시스의 구매안전 서비스 (채무지급보증)을 이용하실 수
+                        있습니다</p>
+                    <br>
+                    <p>온라인디지털콘텐츠사업발전법에 의한 <a href="#">콘텐츠보호안내 자세히보기</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

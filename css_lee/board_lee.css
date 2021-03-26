@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px dotted red; */
+}
+
+header li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header{
+    background-color:#eeeeee;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sub_menu{
+    font-size: small;
+    display: flex;
+    margin-right: 40px;
+    margin-top: 5px;
+    align-self: flex-start;
+}
+
+#jordon_logo{
+    padding: 7px;
+    height: 100%;
+}
+
+#nike_logo{
+    width: 70px;
+    align-self: center;
+    flex: 1;
+}
+
+.icon{
+    width: 25px;
+}
+
+li{
+    list-style: none;
+    color: black;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+#option_menu_region_tablet{
+    display: none;
+}
+.logo_a{
+    margin-left: 40px;
+    height: 21px;
+}
+
+li a{
+    text-decoration-line: none;
+    color: black;
+}
+
+li a:hover{
+    color: #666666;
+}
+
+#search_box{
+    width: 180px;
+    background-color: #eeeeee;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-decoration-line: none;
+    color: #888888;
+}
+
+#search_box:hover{
+    background-color: #dddddd;
+}
+
+#search_box span{
+    display: flex;
+    align-items: center;
+}
+
+#search_box img{
+    margin-left: 10px;
+}
+
+#search_box p{
+    font-size: medium;
+    align-self: initial;
+    margin-left: 10px;
+}
+
+#option_menu_region{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav{
+    /* position: relative; */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul{
+    align-items: center;
+    height: 100%;
+}
+
+#option_menu_region>*{
+    margin:0px 10px;
+}
+
+nav *{
+    display: flex;
+}
+
+#notice_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+
+#notice_container>ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#notice_title li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #cccccc;
+}
+
+#notice_title li:hover{
+    border: 1px solid red;
+}
+
+#notice_title li a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #888888;
+}
+
+#notice_title li a:hover{
+    color: red;
+}
+
+#notice_container>*{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#notice_container>h4{
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+#notice_sub>li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#notice_sub{
+    color: #888888;
+}
+
+#notice_sub a{
+    color: #888888;
+}
+
+#notice_sub a:hover{
+    color: red;
+}
+
+footer{
+    background-color: black;
+    color: #888888;
+    font-size: 11px;
+}
+
+footer li{
+    color: white;
+}
+
+footer ul:first-child a{
+    color: white;
+}
+
+footer div:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul a:hover{
+    color: white;
+}
+footer ul{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer li{
+    margin:7px 3px;
+}
+
+footer a{
+    color: #888888;
+}
+
+footer img{
+    width: 25px;
+    border-radius: 12.5px;
+    background-color: #888888
+}
+footer img:hover{
+    background-color: white
+}
+
+footer ul:last-child li{
+    display: inline-block;
+}
+
+footer ul:last-child li:first-child{
+    display: block;
+}
+
+#information_region{
+    display: flex;
+    padding-top: 50px;
+}
+
+#infromation_region ul:first-child{
+    color: white;
+}
+
+footer>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+footer div:nth-child(2) img{
+    background-color: black;
+    width: 20px;
+}
+footer div:nth-child(2) a{
+    margin-right: 10px;
+}
+
+footer div:nth-child(2) a:hover{
+    color: white;
+}
+
+footer>div:last-child{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer>div:last-child a{
+    color: white;
+}
+footer>div:last-child>div:first-child{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+footer>div:last-child>div:last-child{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+footer>div:last-child>div:first-child p{
+    display: inline;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+footer>div:last-child>div:last-child p{
+    margin-bottom: 0px;
+}
+
+#write_area{
+    display: none;
+}
