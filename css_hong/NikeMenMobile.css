@@ -1,0 +1,51 @@
+@media screen and (max-width:960px){
+
+    .container{
+        flex-direction: column;
+    }
+
+    #header01{
+        display: none;        
+    }
+
+    header{
+        width: 100%;
+    }
+
+    #icon_set{
+        display: none;
+    }
+
+    #icon_set_mobile{
+        display: flex;
+        margin: 0 10px;
+    }
+
+    #header02 .header-bottom-nav{
+        display: none;
+    }
+
+    #header03_menu {
+        display: none;
+    }
+
+    #header03{
+        display: flex;
+        align-items: center;
+    }
+    #header03 #icon_filter_mobile{
+        display: flex;
+        width: 15px;
+        height: 15px;
+        margin: 0 25px;
+    }    
+
+    /* .side ul{
+        display: flex;
+    } */
+    .side ul li{
+        display: inline-block;        
+        padding: 0 10px;
+    }
+
+}
