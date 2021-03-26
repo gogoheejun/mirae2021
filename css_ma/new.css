@@ -1,6 +1,7 @@
 
 
 
+
 /* 전체 스타일 */
 
 
@@ -38,7 +39,8 @@
 
 
 
-a:link { color: red; text-decoration: none;}
+
+a:link { color: black; text-decoration: none;}
  a:visited { color: black; text-decoration: none;}
     a:hover { color: gray; text-decoration: none;}
 
@@ -153,9 +155,7 @@ nav li{
 }
 
 
-nav li:hover{
-    border-bottom: 2px solid black;
-}
+
 
 
 
@@ -175,15 +175,19 @@ nav li:hover{
 .mega_ul{
 	margin:0 auto;	
     width:700px; height:500px;
-	position:relative;	
 	font-size:15px;
-    background-color: tomato;
+   
 }
-
 .mega{
-  
+   float: left;
+   margin-top: 50px;
+  margin-left: 35px;
+    
 }
 
+.mega li{
+    display: block;
+}
 
 
 
@@ -429,6 +433,8 @@ footer a:visited { color: white; text-decoration: none;}
 
 
 
+
+/* 모바일 메가메뉴 */
 
 
 
