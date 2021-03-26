@@ -40,7 +40,7 @@ body{
 /* ---------------------header02------------------------ */
 #header02{
     display: flex;
-    background-color: yellow;
+    /* background-color: yellow; */
     justify-content: space-between;
     align-items: center;  
 }
@@ -110,7 +110,7 @@ body{
 /* ---------------------header03------------------------ */
 #header03{
     display: flex;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     justify-content: space-between;
 }
 
@@ -223,7 +223,7 @@ header .header-bottom-nav{
 
 aside.side{
     flex: 1;
-    background-color: wheat;
+    /* background-color: wheat; */
     padding: 0px 48px;
 }
 
