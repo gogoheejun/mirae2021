@@ -228,12 +228,14 @@ aside.side{
 }
 
 aside.side ul{
-    list-style: none;
-    padding-left: 0px;
+    list-style: none;    
 }
 
-aside.side li{padding: 7px 0px;}
-aside.side li a{color: black; text-decoration: none;}
+aside.side li{padding: 7px 0;}
+aside.side li a{
+    color: black;
+    text-decoration: none;
+}
 aside.side li a:hover{color: grey;}
 
 
@@ -302,6 +304,7 @@ footer ul{
 
 #footer02{
     display: flex;
+    justify-content: space-between;
 }
 
 #footer02 p{
@@ -310,11 +313,11 @@ footer ul{
 
 #footer02 div{    
     /* margin: 0 0 0 auto; */
-    display: flex;
+    display: flex;    
 }
 
 #footer02 #p2>a, #p3>a{
-    margin: 0 10px;
+    padding: 0 0 0 10px;
 }
 
 .li_social{
@@ -330,11 +333,3 @@ footer ul{
 .icon_social:hover{
     background-color: white;
 }
-
-#footer03 p{
-    /* margin: 0px 20px; */
-}
-
-/* footer{
-    min-width: 1000px;
-} */
