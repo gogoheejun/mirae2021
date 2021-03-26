@@ -1,0 +1,200 @@
+
+/* 전체 스타일 */
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family:sans-serif ; 
+
+   
+}
+
+
+
+/* head */
+
+#top_menubox{
+    display: none;
+}
+#top_menubox2{
+    background-color:white;
+    height: 70px;
+}
+#logo_nike{
+    float: left;
+}
+
+nav ul{
+  display: none;
+}
+
+#text_icon_box{
+    display: none;
+}
+
+#text_icon_box_mobile{
+    float: right;
+    
+    margin-top: 17px;
+    margin-right: 10px;
+}
+#text_icon_box_mobile img{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#h3_mobile{
+ 
+   background-color: orange;
+   
+    padding: 10px
+    
+
+}
+header{
+    
+    /* position: fixed; */
+    width: 100%;
+   
+}
+
+
+
+/* article */
+
+
+article{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: flex-start; /*row-reverse배치면 right*/
+
+   
+    
+    margin-left: 5px;
+    
+}
+.item_bundle img{
+    width: 99%;
+}
+.item_bundle{
+    width: 50%;
+}
+.item_bundle img:hover{
+
+    opacity: 0.7;
+}
+
+
+/* aside */
+
+aside{
+    display: none;
+    
+}
+
+
+/* footer */
+
+footer{
+    font-size: 12px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    width: 100%;
+    color: white;
+    
+}
+footer a:link { color: white; text-decoration: none;}
+footer a:visited { color: white; text-decoration: none;}
+  footer a:hover { color: gray; text-decoration: none;}
+
+
+
+#footer01 ul li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}    
+#footer01 :nth-child(2){display: none;}
+#footer01 :nth-child(3){display: none;}
+#footer01 :nth-child(4){display: none;}
+
+#footera{
+    display: none;
+}
+
+#foot_mobile{
+    display: none;
+    
+}
+#foot_mobile li{
+    display: inline;
+}
+
+#bottom02 li{
+    display: inline;}
+    
+#bottom02{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#reserved{width: 45%;
+margin: 0 auto;
+text-align: center;
+
+
+}
+
+#bottom04{
+    margin: 30px 0px;
+    font-size: 9px;
+    text-align: center;
+}
+
+    
+
+#footer01 a:link { color: gray; text-decoration: none;}
+#footer01 a:visited { color: gray; text-decoration: none;}
+#footer01 a:hover { color: white; text-decoration: none;}
+
+
+#footera a:link{color: white; text-decoration: none;}
+#footera a:visited { color: white; text-decoration: none;}
+
+
+
+
+/* 메가메뉴 */
+
+#mega_mobile{
+    background-color: white;
+    width: 50%;
+    height: 120%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    font-size: 32px;
+    z-index: 1;
+}
+
+#mega_mobile ul{
+    margin: 32px;
+}
+
+#mega_mobile li{
+    margin-top: 36px;
+}
+
+#blur{
+    width: 100%; 
+    height: 1000%;
+    background-color: rgba( 255, 255, 255, 0.8 );
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+

@@ -1,0 +1,438 @@
+
+
+
+/* 전체 스타일 */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family:sans-serif ; 
+}
+
+#wrapper02{
+    width: 1850px;
+    margin: 0 auto;   
+}
+
+
+/* 웹에서 안보여줄 스타일 */
+
+#text_icon_box_mobile{
+    display: none;
+}
+#h3_mobile{
+    display: none;
+}
+#foot_mobile{
+    display: none;
+}
+#mega_mobile{
+    display: none;
+}
+#blur{
+    display: none;
+}
+
+
+
+a:link { color: red; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+    a:hover { color: gray; text-decoration: none;}
+
+
+body{
+   width: 100%;
+   -ms-overflow-style: none;
+}
+/* 스크롤바 없애기 */
+::-webkit-scrollbar { display: none; }
+
+
+#wrapper{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;   
+}
+
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+   .nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+   }
+
+
+
+/* header */
+header{
+     position: relative;
+     
+}
+#top_menubox{
+    height: 36px;
+    background-color: rgb(243, 243, 243);
+}
+#logo_jodon{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+
+}
+#top_menu{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+#top_menu a{
+    font-size: 12px;
+}
+
+#top_menubox_c1{
+    position: relative;
+    
+    width: 1850px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+/* top_menubox2 */
+
+
+
+#top_menubox2{
+    position: relative;
+    width: 1850px;
+    height: 60px;
+    margin: 0 auto;
+    background-color:white;
+}
+#logo_nike{
+    width: 84px;
+    height: 60px;
+}
+nav{
+    
+    position: absolute;
+    
+    
+    left:700px;
+    bottom: 15px;
+    
+    font-size: 16px;
+}
+nav li{
+    display: inline;
+    margin-left: 30px;
+  
+    padding-bottom: 20px;
+}
+
+
+nav li:hover{
+    border-bottom: 2px solid black;
+}
+
+
+
+
+
+/* ---------------------메가메뉴 구현------------------------------ */
+
+.header-bottom-nav-sub-menu-container {
+	position: absolute;
+    left: -800px;
+	z-index:3;
+	width:2000px; height:0px;/*기본값 170px;*/
+	overflow:hidden;
+	transition:all 0.5s;
+	background:white;
+}
+.mega_ul{
+	margin:0 auto;	
+    width:700px; height:500px;
+	position:relative;	
+	font-size:15px;
+    background-color: tomato;
+}
+
+.mega{
+  
+}
+
+
+
+
+
+
+
+/* 아이콘 박스 */
+#text_icon_box{
+   
+   width: 300px;
+    position: absolute;
+    right: 50px;
+    bottom: -10px;
+    
+}
+
+
+#text_icon_box div{
+    float: left;
+}
+#search_box{
+    
+    background-color: rgb(204, 204, 204);
+    width: 150px;
+    height: 30px;
+    margin-right: 30px;
+    margin-top: 9px;
+    border-radius:1em;
+}
+#search_box:hover{
+    background-color: rgb(177, 177, 177);
+}
+#search_box img{
+    width: 28px;
+    margin: 2px;
+    padding: 1px;
+}
+
+.iconicon{
+    
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.iconicon img{
+    margin-top: 10px;
+}
+
+.iconicon:hover{
+    
+    border-radius: 100em;
+    background-color: rgb(177, 177, 177);
+    
+}
+
+
+
+
+
+
+/* aside */
+
+aside{
+    width: 15%;
+    float: left;
+    overflow: scroll;
+    height: 1000px;
+
+    -ms-overflow-style: none; 
+   
+}
+aside p{
+    font-weight: bold;
+}
+
+aside li{
+    font-size: 15px;
+}
+
+
+/* aside메뉴 간격 조절 */
+aside ul{
+    margin: 20px 0px;
+}
+aside hr{
+    margin-bottom: 20px;
+}
+aside li{
+    margin-bottom: 10px;
+}
+
+
+
+/* section */
+section{
+    height: 1000px;
+    width: 85%;
+    float: right;
+    overflow: scroll;
+}
+article > div{
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+/* 아이템박스 설계 */
+.item_box{
+    padding-top: 5px;
+    height: 30px;
+}
+
+h5{
+    color: rgb(145, 145, 145);
+}
+
+.item_box h4:first-child{
+    float: left;
+}
+.item_box h4:last-child{
+    float: right;
+}
+
+.item_bundle img:hover{
+
+    opacity: 0.7;
+}
+
+
+
+/* footer */
+footer{
+    background-color: rgb(0, 0, 0);
+    float: left;
+    width: 100%;
+    color: white;
+    
+}
+footer a:link { color: white; text-decoration: none;}
+footer a:visited { color: white; text-decoration: none;}
+  footer a:hover { color: gray; text-decoration: none;}
+
+#footer01{
+
+    height: 400px;
+    width: 1300px;
+   
+   
+    margin: 0 auto;
+    padding-top: 50px;
+    
+}
+#footer01 ul{
+    margin-top: 30px;
+    float: left;
+  
+    margin-left: 60px;
+    margin-right: 100px;
+    
+    
+
+   
+   
+}
+
+#footer01 ul li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}    
+
+    
+
+#footer01 a:link { color: gray; text-decoration: none;}
+#footer01 a:visited { color: gray; text-decoration: none;}
+#footer01 a:hover { color: white; text-decoration: none;}
+
+
+#footera a:link{color: white; text-decoration: none;}
+#footera a:visited { color: white; text-decoration: none;}
+
+
+
+#reserved{
+ 
+    padding: 40px 0;
+    position: relative;
+}
+#reserved p{
+    float: left;
+    margin-left: 30px;
+}
+
+#bottom02{
+    
+    float: right;
+    margin-right: 30px;
+}
+
+#bottom02 li{
+    display: inline;
+    margin-right: 20px;
+}
+
+
+#bottom04{
+    padding-top: 20px;
+    height: 150px;
+    width: 70%;
+    margin: 0 auto;
+   
+}
+
+#bottom04 p{
+    margin-left: 120px;
+}
+
+#bottom04 :first-child{
+    float: left;
+    font-size: 12px;
+    
+}
+
+#bottom04 :last-child{
+    float: left;
+    font-size: 12px;
+}
+
+
+
+#social li{
+    display: inline;
+}
+
+#social img{
+    width: 25px;
+    border-radius: 12.5px;
+    background-color: #888888
+}
+#social img:hover{
+    background-color: white
+}
+
+
+
+
+
+
+
+
+
+
