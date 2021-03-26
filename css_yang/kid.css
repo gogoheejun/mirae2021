@@ -353,9 +353,17 @@ footer #online{
     }
 
     
-    .header{
+    header{
         padding-right: 0px;
+        padding-bottom: 0px;
     }
+    header img{
+        margin-left: -20px;
+    }
+    .title h3{
+        margin: 0px;
+    }
+    
 
     /* /////////// */
 
@@ -387,10 +395,10 @@ footer #online{
         flex-direction: column;
         
     }
-     #mobile_shoe{
+    #mobile_shoe{
         display: inline;
     }
-     #desk_shoe{
+    #desk_shoe{
         display: none;
     }
     .desktop-show{
