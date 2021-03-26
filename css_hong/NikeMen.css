@@ -3,6 +3,10 @@
     src: url("../NotoSansKR-Regular.otf");
 }
 
+/* *{
+    border: 1px solid red;
+} */
+
 ul, ol{
     list-style: none;
 }
@@ -10,7 +14,7 @@ ul, ol{
 body{
     margin: 0;
     padding: 0;
-    font-family: "Noto Sans KR", Arial, Helvetica, sans-serif;
+    font-family: "Noto Sans KR", Arial, Helvetica, sans-serif;     
 }
 
 /* ---------------------header01------------------------ */
@@ -43,7 +47,24 @@ body{
 #header02 #Nike_logo, #icon_set{
     padding: 10px 40px 10px 40px;
 }
+#header02 .header-bottom-nav{
+    display: flex;
+    align-items: center;
+}
+
 #header02 .header-bottom-nav a{
+    color: black;
+    text-decoration: none;
+}
+#header02 .header-bottom-nav a:hover{
+    text-decoration: underline;
+}
+
+#header-bottom-nav-sub-menu a{
+    color: black;
+    text-decoration: none;
+}
+#header-bottom-nav-sub-menu a:hover{
     color: black;
     text-decoration: none;
 }
@@ -57,6 +78,7 @@ body{
 }
 #icon_set{
     display: flex;
+    align-items: center;
 }
 #icon_set input{
     width: 120px;
@@ -76,6 +98,7 @@ body{
     background-color: #F5F5F5;
     border-radius: 30px;
     align-items: center;
+    padding: 5px 0;
 }
 
 #icon_set_mobile{
@@ -104,6 +127,7 @@ body{
 }
 
 #header03_menu{
+    display: flex;
     padding: 30px 40px 10px 40px;
 }
 #header03_menu>div:hover{
@@ -121,7 +145,9 @@ body{
 #header03_menu>a:hover{
     opacity: .5;
 }
-
+#header03 #icon_filter_mobile{
+    display: none;    
+}
 
 
 
@@ -159,23 +185,22 @@ header .header-bottom-nav{
 	line-height:30px;
 }
 #header-bottom-nav-sub-menu a {
-    color:black;	
+    opacity: .7;
 }
 #header-bottom-nav-sub-menu a:hover {
-    color: black;
-    text-decoration:underline;   
+    opacity: 1;
 }
 .header-bottom-nav-sub-menu1 {
-    left:2%;
+    left:4%;
 }
 .header-bottom-nav-sub-menu2 {
-    left:16%;
+    left:18%;
 }
 .header-bottom-nav-sub-menu3 {
-    left:36%;
+    left:39%;
 }
 .header-bottom-nav-sub-menu4 {
-    left:51%;
+    left:53%;
 }
 .header-bottom-nav li {	
 	width:124px;
@@ -186,7 +211,7 @@ header .header-bottom-nav{
 }
 
 
-/* ----------------------------container------------------- */
+/* ----------------------------container------------------------ */
 
 /* 왼쪽사이드와 본문영역을 가진 부모요소 */
 .container{
@@ -222,7 +247,7 @@ aside.side li a:hover{color: grey;}
     margin: 24px 12px;
 }
 .main img{    
-    width: 440px;
+    width: 100%;
     display: block;
     margin-bottom: 12px;  
 }
@@ -238,12 +263,12 @@ aside.side li a:hover{color: grey;}
 .main div.product p.productPrice{float: right;}
 
 
-/* footer */
+/* -------------------------footer----------------------- */
 footer{
-    padding: 20px;    
+    /* padding: 20px;     */
     background-color: black;
     color: white;
-    width: 97.9%;
+    width: 100%;
     font-size: 13px;
 }
 
@@ -261,7 +286,7 @@ footer ul{
 }
 
 #footer01 ul{
-    margin: 20px 60px;
+    /* margin: 20px 60px; */
 }
 
 #footer01 .footer01_ul01 a{
@@ -284,7 +309,7 @@ footer ul{
 }
 
 #footer02 div{    
-    margin: 0 0 0 auto;
+    /* margin: 0 0 0 auto; */
     display: flex;
 }
 
@@ -302,7 +327,14 @@ footer ul{
     margin: 5px 0 0 5px;
     border-radius: 10px;
 }
+.icon_social:hover{
+    background-color: white;
+}
 
 #footer03 p{
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
 }
+
+/* footer{
+    min-width: 1000px;
+} */
