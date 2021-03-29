@@ -1,10 +1,12 @@
-@media all and (min-width: 800px){
-
 
 *{margin: 0; padding: 0;}
 
 ul{list-style: none;}
 
+body{
+    display: flex;
+    flex-direction: column;
+}
 
 header{
     display: flex;
@@ -27,7 +29,7 @@ header{
 header .line2{
     display: flex;
     flex-direction: row;
-    position: relative;
+    justify-content: space-between;
 }
 
 #logo{
@@ -85,6 +87,11 @@ header .line3 li{
     margin-top: -13px;
 }
 
+#braBtn{
+    margin: auto;
+    align-items: center;
+}
+
 #thisWeekStyling{
     font-size: 20px;
     margin-left: 20px;
@@ -122,6 +129,13 @@ header .line3 li{
     margin-top: -8px;
 }
 
+.jacketBtn{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+
 #nikeAirMax{
     display: block;
     font-size: 40px;
@@ -141,6 +155,8 @@ header .line3 li{
 }
 
 #AirMaxBtn{
+    margin: auto;
+    text-align: center;
     margin-bottom: 80px;
 }
 
@@ -157,8 +173,17 @@ header .line3 li{
     text-align: center;
 }
 
+#newSpringImg{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
 #springBtn{
-    margin-bottom: 80px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 20px;
+    
 }
 
 #nikeTrailCollection{
@@ -183,13 +208,22 @@ header .line3 li{
     text-align: center;
 }
 
+.collectionBtn{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
 #nikeIndiBraImg{
     width: 94%;
 }
 
 #nikeAirMaxImg{
+    display: flex;
     width: 94%;
     margin-top: 50px;
+    align-items: center;
+    margin: auto;
 }
 
 #newSpringImg{
@@ -461,6 +495,6 @@ footer #online{
     margin-top: 20px;
 }
 
-}
+
 
 /* slide show */
