@@ -221,6 +221,10 @@ header .header-bottom-nav{
     flex-wrap: wrap;
 }
 
+#main_menu_mobile{
+    display: none;
+}
+
 aside.side{
     flex: 1;
     /* background-color: wheat; */
