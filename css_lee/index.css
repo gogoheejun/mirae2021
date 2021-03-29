@@ -22,6 +22,11 @@ a{
     text-decoration-line: none;
 }
 
+#navigation_tablet_items{
+    width: 0px;
+    overflow: hidden;
+}
+
 #container{
     display: flex;
     flex-direction: column;
@@ -95,12 +100,12 @@ header{
     border-bottom: 2px solid black;
 }
 
-.main_category_items{
-
-}
-
 .main-image{
     width: 100%;
+}
+
+.adidasmenu{
+    display: none;
 }
 
 .navigationFlow{

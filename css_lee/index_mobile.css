@@ -377,6 +377,9 @@ footer>div:last-child>div:last-child p{
     width: 100%;
 }
 
+#navigation_tablet_items{
+    width: 0px;
+}
 #information_region_mobile ul{
     display: flex;
     flex-direction: row;

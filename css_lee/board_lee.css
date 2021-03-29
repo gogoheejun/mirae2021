@@ -303,6 +303,6 @@ footer>div:last-child>div:last-child p{
     margin-bottom: 0px;
 }
 
-#write_area{
-    display: none;
+#board_table table{
+    border-top: 1px solid black;
 }

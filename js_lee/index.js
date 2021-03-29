@@ -72,4 +72,14 @@ function loaded() {
         });
         
     }
+    let isopen = false;
+    var check = document.getElementById('check');
+    check.addEventListener('click', function(){
+        isopen = !isopen;
+        if (isopen){
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'scroll';
+        }
+    });
 }
