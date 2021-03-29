@@ -70,6 +70,10 @@ header .header_icon li{
     font-size: 30px;
 }
 
+#nikeindibraGirlImg{
+    width: 100%;
+}
+
 #check{
     display: none;
 }
@@ -497,4 +501,4 @@ footer #online{
         display: inline;
         margin: 0px;
     }
-    
+}
