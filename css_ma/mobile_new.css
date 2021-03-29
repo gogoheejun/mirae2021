@@ -123,9 +123,9 @@ footer a:visited { color: white; text-decoration: none;}
 }
 
 #foot_mobile{
-    display: none;
-    
+    display: none; 
 }
+
 #foot_mobile li{
     display: inline;
 }
@@ -160,6 +160,8 @@ text-align: center;
 
 #footera a:link{color: white; text-decoration: none;}
 #footera a:visited { color: white; text-decoration: none;}
+
+#reserved :first-child{margin: 5px;}
 
 
 
@@ -235,6 +237,7 @@ text-align: center;
     text-align: left;
     padding-left: 30px;
 }
+
 
 
 
