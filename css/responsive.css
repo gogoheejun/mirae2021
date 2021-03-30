@@ -17,9 +17,22 @@ ul{list-style: none;}
   }
 
   .line2 .mainCategory{
-      display: none;
+      display: inline;
       
   }
+
+  header .mainCategory li{
+    display: block;
+    padding: 8px 12px;
+}
+
+.mainCategory{
+    text-align: center;
+}
+
+.icon_only_tablet{
+    display: block;
+}
 
   .line2 .mainCategory a{
       text-decoration: none;
@@ -34,6 +47,15 @@ ul{list-style: none;}
  
   #logo{
       margin-left: 12px;
+  }
+
+  .logo{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .icon{
+      display: none;
   }
   
   .womenCategory{
@@ -309,10 +331,6 @@ ul{list-style: none;}
       margin-bottom: 50px;
   }
 
-  footer{
-      background-color: #000000;
-      color: #555555;
-  }
 
   .oneDescription{
       display: none;
@@ -369,9 +387,7 @@ ul{list-style: none;}
     display: none;
 }
 
-footer{
-    display: none;
-}
+
 
 .threePic{
     display: none;
@@ -410,6 +426,9 @@ footer{
 .adidasmenu a:hover, .adidasmenu a.active{
     background: none;
     color: #666666;
+}
+.footer{
+    display: none;
 }
 
 }
