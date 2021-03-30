@@ -41,7 +41,12 @@ header .mainCategory li{
     padding: 8px 12px;
 }
 
-.heartBag{
+header .mainCategory a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.icon{
     display: inline-flex;
     float: right;
 }
@@ -390,6 +395,11 @@ footer{
     
 }
 
+footer .oneDescription .footer1line li a{
+    text-decoration: none;
+    color: white;
+}
+
 .mobileOneDescription{
     display: none;
 }
@@ -495,6 +505,8 @@ footer #online{
     margin-top: 20px;
 }
 
-
+#didas{
+    display: none;
+}
 
 /* slide show */
