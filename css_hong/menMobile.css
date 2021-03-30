@@ -57,7 +57,21 @@
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        background-color: blanchedalmond;     
+        background-color: blanchedalmond;
+        padding: 0;     
+    }
+
+    .header-bottom-nav-mobile li{
+        text-align: center;
+    }
+
+    .header-bottom-nav-mobile li:hover{
+        background-color: grey; 
+             
+    }
+
+    .header-bottom-nav-mobile a{
+        color: black;
     }
 
 }
