@@ -48,4 +48,14 @@
         padding: 0 10px;
     }
 
+    #main_menu_mobile{
+        display: flex;
+        justify-content: center;        
+    }
+    .header-bottom-nav-mobile{        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;      
+    }
+
 }

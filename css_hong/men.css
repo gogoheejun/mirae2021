@@ -191,13 +191,13 @@ header .header-bottom-nav{
     opacity: 1;
 }
 .header-bottom-nav-sub-menu1 {
-    left:4%;
+    left:1%;
 }
 .header-bottom-nav-sub-menu2 {
     left:18%;
 }
 .header-bottom-nav-sub-menu3 {
-    left:39%;
+    left:36%;
 }
 .header-bottom-nav-sub-menu4 {
     left:53%;
@@ -219,6 +219,10 @@ header .header-bottom-nav{
     /* 브라우저가 작아지면 양옆으로 놓을 공간이 없을때 */
     /* 자동으로 다음줄로 내려가도록...flex-wrap */
     flex-wrap: wrap;
+}
+
+#main_menu_mobile{
+    display: none;
 }
 
 aside.side{
