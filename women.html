@@ -9,8 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="./css/women.css" media="(min-width:900px)">
-    <link rel="stylesheet" href="./css/responsive.css" media="(max-width:900px)">
+    <link rel="stylesheet" href="./css/women.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
     <script src="./js/women.js">
         // Js
@@ -36,20 +36,23 @@
            
             <div class="line2">
         
-            <img src="./image/logo.png" id="logo">
+            <div class="logo">
+                <img src="./image/logo.png" id="logo">
+            </div>
+            
         
-                <ul class="mainCategory" id="mainCategory" style="width: 430px; margin: 0 auto;">
-                    <li>New Releases</li>
-                    <li>Men</li>
-                    <li>Women</li>
-                    <li>Kids</li>
-                    <li>Sale</li>
+                <ul class="mainCategory" style="width: 430px; margin: 0 auto;">
+                    <li><a href="./new.html">New Releases</a></li>
+                    <li> <a href="./NikeMen_index.html">Men</a></li>
+                    <li> <a href="./women.html">Women</a></li>
+                    <li> <a href="./kid.html">Kids</a></li>
+                    <li> <a href="#">Sale</a></li>
                 </ul>
             
-                <div class="heartBag" id="heartBag" style="position: absolute; right: 30px;">
+                <div class="icon" style="position: absolute; right: 30px;">
                     <img src="./image/icon_heart.png" id="heart" >
                     <img src="./image/icon_bag.png" id="bag">
-            
+                    <label for="check" class="checkBtn"><img src="./image/3didas.png" alt="" id="didas"></label>
                 </div>
                 
             </div>
@@ -87,9 +90,11 @@
         <p id="braDetail2">모든 움직임에서 자유로움을 느껴보세요.</p>
     </div>
 
-    <div style="text-align: center;">
-        <img src="./image/btn_purchase.png" id="braBtn" onclick="">
-    </div>
+    
+        
+    <img src="./image/btn_purchase.png" id="braBtn" onclick="">
+        
+  
     
 
     <h3 id="thisWeekStyling">이번 주 스타일링</h3>
@@ -105,12 +110,12 @@
     <p id="springJacketStyle">스프링 재킷 스타일</p>
     <p id="springJacketStyleDetail">봄을 위한 여성 재킷 제품들과 함께 레이어드 룩을 완성해보세요.</p>
 
-    <div class="springBtn"  style="text-align: center;">
+    <div class="jacketBtn">
         <img src="./image/btn_purchase.png">
         <img src="./image/btn_more_detail.png" id="btn_more_detail">
     </div>
     
-    <div style="text-align: center;">
+    <div>
         <img src="./image/main7.png" id="nikeAirMaxImg">
     </div>
     
@@ -119,11 +124,11 @@
     <p id="nikeAirMaxDetail" >맥스 에어 유닛과 아이코닉한 디자인의 비바와 함꼐</p>
     <p id="nikeAirMaxDetail2">시선을 압도하는 세련된 스타일을 연출해보세요.</p>
     
-    <div id="AirMaxBtn" style="text-align: center;">
-        <img src="./image/btn_purchase.png">
-    </div>
     
-    <div style="text-align: center;">
+    <img src="./image/btn_purchase.png" id="AirMaxBtn">
+    
+    
+    <div >
         <img src="./image/main9.png" id="newSpringImg">
         <img src="./image/newspring.png" id="mobileNewSpring">
     </div>
@@ -132,9 +137,9 @@
     <p id="styleForNewStyling">새로운 봄을 위한 스타일링</p>
     <p id="styleForNewStylingDetail" >W CONCEPT만의 감각을 담아 새롭게 해석한 스타일링으로 이번 봄 감각적인 룩을 연출해보세요.</p>
 
-    <div id="springBtn" style="text-align: center;">
-        <img src="./image/btn_purchase.png">
-    </div>
+    
+    <img src="./image/btn_purchase.png" id="springBtn">
+   
     
     <div style="text-align: center;">
         <img src="./image/main11.png" id="nikeTrailCollectionImg">
@@ -146,7 +151,7 @@
     <p id="nikeTrailCollectionDetail" >길들여지지 않은 오프로드로 러닝을 시작하고</p>
     <p id="nikeTrailCollectionDetail2" >트레일 러너가 되어보세요.</p>
 
-    <div class="twoBtn" style="text-align: center;">
+    <div class="collectionBtn">
         <img src="./image/btn_purchase.png">
         <img src="./image/btn_detail.png" alt="">
     </div>
@@ -205,7 +210,7 @@
 
         <div class="oneDescription">
         <ul class="footer1line">
-            <li>매장안내</li>
+            <li><a href="./map.html">매장안내</a></li>
             <li>나이키 트레이닝 가이드</li>
             <li>로그인</li>
             <li>멤버 가입</li>
@@ -273,5 +278,18 @@
     
     </div>
     </footer>
+     <!-- 모바일전용 숨겨진 사이드메뉴
+     <input type="checkbox" id="check" style="display: none;">
+     <ul class="adidasmenu">
+         <li><a href="./new.html">New Releases</a></li>
+         <li><a href="./men.html">Men</a></li>
+         <li><a href="./women.html">Women</a></li>
+         <li><a href="./kid.html">Kids</a></li>  
+         <li><a href="#">SALE</a></li>  
+         <li><a href="#">Brand</a></li>
+         <div style="height: 50px;"></div>  
+         <li><a href="http://moondroid.dothome.co.kr/nike/store_lee.html">매장안내</a></li>  
+         <li><a href="./board_lee.html">1:1문의</a></li>  
+     </ul> -->
 </body>
 </html>

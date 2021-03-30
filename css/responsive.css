@@ -1,23 +1,33 @@
+@media all and (max-width:800px){
 *{margin: 0; padding: 0;}
 ul{list-style: none;}
 
-@media all and (min-width:320px){
-
   .top{
       display: none;
+      
   }
-
-  #mainCategory{
-      display: none;
-  }
-
-
-  .line2{
-    display: inline-flex;
-
+  header .line2{
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
   }
 
+  .line2 .mainCategory{
+      display: none;
+      
+  }
+
+  .line2 .mainCategory a{
+      text-decoration: none;
+      color: #000000;
+  }
+
+  
+  .line3 .womenCategory{
+      display: none;
+  }
+
+ 
   #logo{
       margin-left: 12px;
   }
@@ -36,9 +46,29 @@ ul{list-style: none;}
       margin-left: -28px;
   }
 
-  #nikeIndiBraImg{
+  /* #nikeIndiBraImg{
+      display: none;
+  } */
+
+  #btn_more_detail{
       display: none;
   }
+
+  #nikeindibraGirlImg{
+    width: 94%;
+}
+
+#mobileNewSpring{
+    width: 94%;
+}
+
+#styleForNewStyling{
+    display: none;
+}
+
+#styleForNewStylingDetail{
+    display: none;
+}
 
   .nikeIndiBra p{
     font-size: 40px;
@@ -54,7 +84,7 @@ ul{list-style: none;}
   }
 
   #braBtn{
-      margin-left: -420px;
+      
       margin-bottom: 50px;
   }
 
@@ -72,6 +102,9 @@ ul{list-style: none;}
       width: 94%;
       margin-left: 20px;
       margin-top: 20px;
+      display: flex;
+      margin: auto;
+      align-items: center;
   }
 
   #springJacketStyle{
@@ -88,7 +121,6 @@ ul{list-style: none;}
   }
 
   .springBtn{
-    margin-left: -220px;
     margin-bottom: 50px;
   }
 
@@ -96,6 +128,7 @@ ul{list-style: none;}
       width: 94%;
   }
 
+  
   #nikeAirMax{
     font-size: 40px;
     font-weight: bold;
@@ -114,7 +147,6 @@ ul{list-style: none;}
   }
 
   #AirMaxBtn{
-    margin-left: -420px;
     margin-bottom: 50px;
   }
 
@@ -129,14 +161,16 @@ ul{list-style: none;}
     display: inline-flex;
     flex-direction: column;
     margin-left: 20px;
+    display: none;
   }
 
   #styleForNewStylingDetail{
+      display: none;
       margin-left: 20px;
   }
 
   #springBtn{
-    margin-left: -420px;
+      display: none;
     margin-bottom: 50px;
   }
 
@@ -155,33 +189,43 @@ ul{list-style: none;}
     display: inline-flex;
     flex-direction: column;
     margin-left: 50px;
+    display: none;
   }
 
   #nikeTrailCollectionDetail{
     margin-left: 50px;
+    display: none;
   }
   
   #nikeTrailCollectionDetail2{
       margin-left: 50px;
+      display: none;
+  }
+
+  .collectionBtn{
+      display: none;
   }
 
   .twoBtn{
-    margin-left: -230px;
+      display: none;
     margin-bottom: 50px;
   }
 
   #braTaizOne{
       width: 94%;
       margin-left: 20px;
+      display: flex;
+      margin: auto;
+      align-items: center;
   }
 
   #braTaizTwo{
-      width: 94%;
-      margin-left: 20px;
-      margin-top: 20px;
+      display: none;
   }
 
-  #desktopYoga{
+  
+
+  #airZotic{
       display: none;
   }
 
@@ -312,4 +356,56 @@ ul{list-style: none;}
   #online{
       margin-top: 40px;
   }
+
+.cycle-slideshow{
+    display: none;
+}
+
+#recommandProduction{
+    display: none;
+}
+
+footer{
+    display: none;
+}
+
+.threePic{
+    display: none;
+}
+
+
+
+/* 모바일메뉴 */
+
+.checkbtn{
+    display: block;
+}
+.adidasmenu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fefefe;
+    top: 55px;
+    left: 0px;
+    /* left: 0; */
+    text-align: center; 
+
+    left: 100%;
+    text-align: center;
+    transition: all .5s;
+}
+.adidasmenu li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+.adidasmenu li a{
+    font-size: 20px;
+    color: black;
+}
+.adidasmenu a:hover, .adidasmenu a.active{
+    background: none;
+    color: #666666;
+}
+
 }
