@@ -37,6 +37,9 @@
     display: none;
 }
 
+.adidasmenu{
+    display: none;
+}
 
 
 
@@ -431,11 +434,15 @@ footer a:visited { color: white; text-decoration: none;}
     background-color: white
 }
 
+#reserved :first-child{
+    float: left;margin-left: 20px;
+    
+}
 
 
 
-/* 모바일 메가메뉴 */
 
+/* google map */
 
 
 
