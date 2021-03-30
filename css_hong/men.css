@@ -240,7 +240,7 @@ aside.side li a{
     color: black;
     text-decoration: none;
 }
-aside.side li a:hover{color: grey;}
+#aside_menu li a:hover{color: grey;}
 
 
 .main{
