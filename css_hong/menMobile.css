@@ -50,12 +50,14 @@
 
     #main_menu_mobile{
         display: flex;
-        justify-content: center;        
+        justify-content: center;       
     }
     .header-bottom-nav-mobile{        
         display: flex;
         flex-direction: column;
-        justify-content: center;      
+        justify-content: center;
+        width: 100%;
+        background-color: blanchedalmond;     
     }
 
 }
