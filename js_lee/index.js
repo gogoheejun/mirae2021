@@ -21,4 +21,65 @@ function loaded() {
         timerSeeker++;
         if(timerSeeker == 4) timerSeeker = 0;
     }, 2000)
+    
+    var megaMenuContainer = document.getElementById('mega_menu_container');
+    var article = document.getElementById('main_article');
+    var mainCategoryItems = document.getElementsByClassName('main_category_items');
+    var navigationFolw = document.getElementsByClassName('navigationFlow');
+    for (let i = 0; i < mainCategoryItems.length; i++) {
+        mainCategoryItems[i].addEventListener('mouseover', function(){
+            megaMenuContainer.style.position = 'relative';
+            megaMenuContainer.style.height = '350px';
+            megaMenuContainer.style.zIndex = '2';``
+            navigationFolw[i].style.height = '350px';
+            $('#mega_menu_container').slideDown('slow');
+            $('.main_category_items').slideDown('slow');
+            article.style.position = 'relative';
+            article.style.zIndex = '1';
+            article.style.top = '-350px';
+        });
+
+        navigationFolw[i].addEventListener('mouseover', function(){
+            megaMenuContainer.style.position = 'relative';
+            megaMenuContainer.style.height = '350px';
+            megaMenuContainer.style.zIndex = '2';
+            navigationFolw[i].style.height = '350px';
+            $('#mega_menu_container').slideDown('slow');
+            $('.main_category_items').slideDown('slow');
+            article.style.position = 'relative';
+            article.style.zIndex = '1';
+            article.style.top = '-350px';
+        });
+
+        mainCategoryItems[i].addEventListener('mouseout', function(){
+            megaMenuContainer.style.position = 'relative';
+            megaMenuContainer.style.height = '0px';
+            megaMenuContainer.style.zIndex = '2';
+            navigationFolw[i].style.height = '0px';
+            article.style.position = 'relative';
+            article.style.zIndex = '1';
+            article.style.top = '0px';
+        });
+
+        navigationFolw[i].addEventListener('mouseout', function(){
+            megaMenuContainer.style.position = 'relative';
+            megaMenuContainer.style.height = '0px';
+            megaMenuContainer.style.zIndex = '2';
+            navigationFolw[i].style.height = '0px';
+            article.style.position = 'relative';
+            article.style.zIndex = '1';
+            article.style.top = '0px';
+        });
+        
+    }
+    let isopen = false;
+    var check = document.getElementById('check');
+    check.addEventListener('click', function(){
+        isopen = !isopen;
+        if (isopen){
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'scroll';
+        }
+    });
 }

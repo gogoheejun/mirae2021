@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>게시판</title>
 
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js_lee/board_lee.js"></script>
     <link rel="stylesheet" href="./css_lee/board_lee.css">
     
 </head>
@@ -80,34 +83,18 @@
                     <li><a href="">멤버십</a></li>
                 </ul>
             </div>
-            <div>
-                <button onclick="asdfasdf()">
+
+            <div style="position: relative; padding: 20px 100px;">
+                <button style="position: absolute; top: 0px; right: 100px;" onclick="writeMsg()">
                     글쓰기
                 </button>
             </div>
-            <div id="write_area">
-                <form action="">
-                    <input type="text">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <input type="submit">
-                </form>
+            
+            <div id="board_table" style="display: flex; justify-content: center;">
+                
             </div>
-            <div>
-                <table>
-                    <tr>
-                        <th>no</th>
-                        <th>작성자</th>
-                        <th>제목</th>
-                        <th>날짜</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>이다형</td>
-                        <td>안녕하세요</td>
-                        <td>2021.03.26</td>
-                    </tr>
-                </table>
-            </div>
+
+            
         </article>
 
         <footer>

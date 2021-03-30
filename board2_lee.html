@@ -8,6 +8,11 @@
 
     <link rel="stylesheet" href="./css_lee/board_lee.css">
     <script src="./js_lee/board_lee.js"></script>
+    <script>
+        function submit(){
+            open('./board_lee.html','_self');
+        }
+    </script>
 </head>
 <body onload="loaded()">
     <div id="container">
@@ -80,7 +85,14 @@
                     <li><a href="">멤버십</a></li>
                 </ul>
             </div>
-            
+
+            <div style="display: flex; justify-content: center; margin-bottom: 50px;">
+                <form action="./php_lee/board.php" method="GET">
+                    <label>이름<br><input type="text" name="name"></label><br><br>
+                    <label>내용작성<br><textarea name="msg" cols="40" rows="15"></textarea></label><br>
+                    <input type="submit" value="글쓰기" style="width: 10em;">
+                </form>
+            </div>
         </article>
 
         <footer>
